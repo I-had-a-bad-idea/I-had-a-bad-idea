@@ -1,6 +1,8 @@
 <div align="center">
   <h1>I-had-a-bad-idea</h1>
   
+<img align="right" alt="GIF" height="80px" src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" />
+  
   <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&pause=1000&color=58A6FF&center=true&vCenter=true&width=435&lines=Student+Developer+from+Germany" alt="Typing SVG" />
 </div>
 
@@ -17,30 +19,40 @@ I'm a student developer from Germany with a passion for programming.
 
 ## Projects
 
-<div align="center">
-  <a href="https://github.com/I-had-a-bad-idea/Rasterization-Renderer">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=Rasterization-Renderer&theme=github_dark&hide_border=true&cache_seconds=86400" alt="3D Renderer Repo" />
-  </a>
-  <a href="https://github.com/I-had-a-bad-idea/Git-GUI">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=Git-GUI&theme=github_dark&hide_border=true&cache_seconds=86400" alt="3D Renderer Repo" />
-  </a>
-</div>
-
-<div align="center">
-  <a href="https://github.com/I-had-a-bad-idea/PV">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=PV&theme=github_dark&hide_border=true&cache_seconds=86400" alt="Password Manager Repo" />
-  </a>
-  <a href="https://github.com/I-had-a-bad-idea/Digit-Recognition-Neural-Network">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=Digit-Recognition-Neural-Network&theme=github_dark&hide_border=true&cache_seconds=86400" alt="Digit Recognition Repo" />
-  </a>
-</div>
+<table>
+  <tr>
+    <td>
+      <a href="https://github.com/I-had-a-bad-idea/Rasterization-Renderer">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=Rasterization-Renderer&theme=github_dark&hide_border=true" />
+      </a>
+    </td>
+    <td>
+     <a href="https://github.com/I-had-a-bad-idea/Digit-Recognition-Neural-Network">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=Digit-Recognition-Neural-Network&theme=github_dark&hide_border=true" />
+     </a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+     <a href="https://github.com/I-had-a-bad-idea/Git-GUI">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=Git-GUI&theme=github_dark&hide_border=true" />
+      </a>
+    </td>
+    <td>
+     <a href="https://github.com/I-had-a-bad-idea/PV">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=PV&theme=github_dark&hide_border=true" />
+      </a>
+    </td>
+  </tr>
+</table>
 
 ## Statistics
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=I-had-a-bad-idea&layout=compact&theme=github_dark&hide_border=true&hide_title=true" alt="Top Languages" width="49%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=I-had-a-bad-idea&theme=github-dark&hide_border=true&custom_title=Daily%20Activity" alt="Daily Activity Graph" width="98%" />
 
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=I-had-a-bad-idea&theme=github-dark&hide_border=true&custom_title=Contribution%20Graph" alt="Activity Graph" width="98%" />
+
 </div>
 
 <div align="center">
