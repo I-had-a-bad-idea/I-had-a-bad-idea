@@ -1,7 +1,7 @@
 <div align="center">
   <h1>I-had-a-bad-idea</h1>
   
-<img align="right" alt="GIF" height="80px" src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" />
+<img align="right" alt="GIF" width="80px" height="80px" src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" />
   
   <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&pause=1000&color=58A6FF&center=true&vCenter=true&width=435&lines=Student+Developer+from+Germany" alt="Typing SVG" />
 </div>
