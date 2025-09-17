@@ -6,9 +6,14 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&pause=1000&color=58A6FF&center=true&vCenter=true&width=435&lines=Student+Developer+from+Germany" alt="Typing SVG" />
 </div>
 
+---
+
 ## About Me
 
-I'm a student developer from Germany with a passion for programming.
+I'm a student developer from Germany with a passion for programming.  
+I enjoy learning by building projects, whether in machine learning, graphics, or simple tools.
+
+---
 
 ## Technologies
 
@@ -46,6 +51,8 @@ I'm a student developer from Germany with a passion for programming.
   </tr>
 </table>
 
+---
+
 ## Statistics
 
 <div align="center">
@@ -59,6 +66,7 @@ I'm a student developer from Germany with a passion for programming.
   <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&pause=1000&color=58A6FF&center=true&vCenter=true&width=435&lines=Never+Stop+Learning" alt="Footer Typing SVG" />
 </div>
 
+---
 
 ### Fun Fact: I solved the world´s oldest question:
 
