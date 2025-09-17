@@ -57,10 +57,13 @@ I enjoy learning by building projects, whether in machine learning, graphics, or
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=I-had-a-bad-idea&layout=compact&theme=github_dark&hide_border=true&hide_title=true" alt="Top Languages" width="49%" />
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=I-had-a-bad-idea&theme=github-dark&hide_border=true&custom_title=Daily%20Activity" alt="Daily Activity Graph" width="98%" />
-
 
 </div>
+
+Contributions Graph             | Contribution Time
+:-------------------------:|:-------------------------:
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=I-had-a-bad-idea&theme=github_dark)  |  ![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=I-had-a-bad-idea&theme=github_dark)
+
 
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&pause=1000&color=58A6FF&center=true&vCenter=true&width=435&lines=Never+Stop+Learning" alt="Footer Typing SVG" />
