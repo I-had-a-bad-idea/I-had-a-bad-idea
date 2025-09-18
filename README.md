@@ -3,15 +3,15 @@
   
 <img align="right" alt="GIF" height="80px" src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" />
   
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&pause=1000&color=58A6FF&center=true&vCenter=true&width=435&lines=Student+Developer+from+Germany" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&pause=1000&color=58A6FF&center=true&vCenter=true&width=435&lines=Student+from+Germany;I+programm,+therefore+I+am;Join+the+dark+side;Command+line+enjoyer;Tabs+over+spaces" alt="Typing SVG" />
 </div>
 
 ---
 
 ## About Me
 
-I'm a student developer from Germany with a passion for programming.  
-I enjoy learning by building projects, whether in machine learning, graphics, or simple tools.
+I'm a student from Germany with a passion for programming.  
+I enjoy learning by building projects in whatever field I want to learn.
 
 ---
 
@@ -66,7 +66,7 @@ Contributions Graph             | Contribution Time
 
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&pause=1000&color=58A6FF&center=true&vCenter=true&width=435&lines=Never+Stop+Learning" alt="Footer Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&pause=1000&color=58A6FF&center=true&vCenter=true&width=435&lines=Never+Stop+Learning;Fail+faster,+learn+faster;Code.+Fail.+Learn.+Repeat." alt="Footer Typing SVG" />
 </div>
 
 ---
