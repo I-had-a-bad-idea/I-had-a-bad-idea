@@ -45,8 +45,8 @@ I enjoy learning by building projects in whatever field I want to learn.
       </a>
     </td>
     <td>
-     <a href="https://github.com/I-had-a-bad-idea/PV">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=PV&theme=github_dark&hide_border=true" />
+     <a href="https://github.com/I-had-a-bad-idea/Binary-to-morse">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=Binary-to-morse&theme=github_dark&hide_border=true" />
       </a>
     </td>
   </tr>
