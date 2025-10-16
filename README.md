@@ -23,7 +23,7 @@ I enjoy learning by building projects in whatever field I want to learn.
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
 
-## Interesting Projects I made
+## Interesting Stuff I made
 
 <table>
   <tr>
@@ -57,6 +57,8 @@ I enjoy learning by building projects in whatever field I want to learn.
 ## Currently working on
 
 - An interpreted programming language in Rust
+- Syntax highlighting for the language
+- A little screensaver in C++
 
 
 ## Some (possibly) interesting statistics
