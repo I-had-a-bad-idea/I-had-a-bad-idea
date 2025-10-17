@@ -28,25 +28,25 @@ I enjoy learning by building projects in whatever field I want to learn.
 <table>
   <tr>
     <td>
-      <a href="https://github.com/I-had-a-bad-idea/Rasterization-Renderer">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=Rasterization-Renderer&theme=github_dark&hide_border=true" />
+      <a href="https://github.com/I-had-a-bad-idea/IPL">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=IPL&theme=github_dark&hide_border=true" />
       </a>
     </td>
     <td>
-     <a href="https://github.com/I-had-a-bad-idea/Digit-Recognition-Neural-Network">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=Digit-Recognition-Neural-Network&theme=github_dark&hide_border=true" />
+     <a href="https://github.com/I-had-a-bad-idea/Rasterization-Renderer">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=Rasterization-Renderer&theme=github_dark&hide_border=true" />
      </a>
     </td>
   </tr>
   <tr>
     <td>
-     <a href="https://github.com/I-had-a-bad-idea/Screensaver">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=Screensaver&theme=github_dark&hide_border=true" />
+     <a href="https://github.com/I-had-a-bad-idea/Digit-Recognition-Neural-Network">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=Digit-Recognition-Neural-Network&theme=github_dark&hide_border=true" />
       </a>
     </td>
     <td>
-     <a href="https://github.com/I-had-a-bad-idea/Binary-to-morse">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=Binary-to-morse&theme=github_dark&hide_border=true" />
+     <a href="https://github.com/I-had-a-bad-idea/Screensaver">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=Screensaver&theme=github_dark&hide_border=true" />
       </a>
     </td>
   </tr>
@@ -55,14 +55,13 @@ I enjoy learning by building projects in whatever field I want to learn.
 ---
 
 ## Currently working on
-
-- An interpreted programming language in Rust
-- Syntax highlighting for the language
+- IPL (An interpreted programming language in Rust)
+- Syntax highlighting for IPL
 
 ## Some (possibly) interesting statistics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=I-had-a-bad-idea&layout=compact&theme=github_dark&hide_border=true&hide_title=true" alt="Top Languages" width="49%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=I-had-a-bad-idea&layout=compact&theme=github_dark&hide_border=true&hide_title=true" alt="Top Languages" width="50%" />
 
 </div>
 
