@@ -40,8 +40,8 @@ I enjoy learning by building projects in whatever field I want to learn.
   </tr>
   <tr>
     <td>
-     <a href="https://github.com/I-had-a-bad-idea/Git-GUI">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=Git-GUI&theme=github_dark&hide_border=true" />
+     <a href="https://github.com/I-had-a-bad-idea/Screensaver">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=Screensaver&theme=github_dark&hide_border=true" />
       </a>
     </td>
     <td>
@@ -58,8 +58,6 @@ I enjoy learning by building projects in whatever field I want to learn.
 
 - An interpreted programming language in Rust
 - Syntax highlighting for the language
-- A little screensaver in C++
-
 
 ## Some (possibly) interesting statistics
 
