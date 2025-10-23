@@ -40,8 +40,8 @@ I enjoy learning by building projects in whatever field I want to learn.
   </tr>
   <tr>
     <td>
-     <a href="https://github.com/I-had-a-bad-idea/Digit-Recognition-Neural-Network">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=Digit-Recognition-Neural-Network&theme=github_dark&hide_border=true" />
+     <a href="https://github.com/I-had-a-bad-idea/PixelMorph">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=PixelMorph&theme=github_dark&hide_border=true" />
       </a>
     </td>
     <td>
@@ -61,13 +61,13 @@ I enjoy learning by building projects in whatever field I want to learn.
 ## Some (possibly) interesting statistics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=I-had-a-bad-idea&layout=compact&theme=github_dark&hide_border=true&hide_title=true&v=1" alt="Top Languages" width="50%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=I-had-a-bad-idea&layout=compact&theme=github_dark&hide_border=true&hide_title=true&v=2" alt="Top Languages" width="50%" />
 
 </div>
 
 Contributions Graph             | Contribution Time
 :-------------------------:|:-------------------------:
-![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=I-had-a-bad-idea&theme=github_dark)  |  ![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=I-had-a-bad-idea&theme=github_dark)
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=I-had-a-bad-idea&theme=github_dark&v=2)  |  ![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=I-had-a-bad-idea&theme=github_dark&v=2)
 
 
 <div align="center">
