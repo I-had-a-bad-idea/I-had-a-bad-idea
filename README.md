@@ -56,7 +56,7 @@ I enjoy learning by building projects in whatever field I want to learn.
 
 ## Currently working on
 - IPL (An interpreted programming language in Rust)
-- Syntax highlighting for IPL
+- A library manager for IPL
 
 ## Some (possibly) interesting statistics
 
