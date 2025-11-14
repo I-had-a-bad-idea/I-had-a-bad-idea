@@ -33,24 +33,40 @@ I enjoy learning by building projects in whatever field I want to learn.
       </a>
     </td>
     <td>
-     <a href="https://github.com/I-had-a-bad-idea/Rasterization-Renderer">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=Rasterization-Renderer&theme=github_dark&hide_border=true" />
-     </a>
+      <a href="https://github.com/I-had-a-bad-idea/ILI">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=ILI&theme=github_dark&hide_border=true" />
+      </a>
     </td>
   </tr>
+
   <tr>
     <td>
-     <a href="https://github.com/I-had-a-bad-idea/PixelMorph">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=PixelMorph&theme=github_dark&hide_border=true" />
+      <a href="https://github.com/I-had-a-bad-idea/Rasterization-Renderer">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=Rasterization-Renderer&theme=github_dark&hide_border=true" />
       </a>
     </td>
     <td>
-     <a href="https://github.com/I-had-a-bad-idea/Screensaver">
+      <a href="https://github.com/I-had-a-bad-idea/PixelMorph">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=PixelMorph&theme=github_dark&hide_border=true" />
+      </a>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <a href="https://github.com/I-had-a-bad-idea/Screensaver">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=Screensaver&theme=github_dark&hide_border=true" />
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/I-had-a-bad-idea/Digit-Recognition-Neural-Network">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=Digit-Recognition-Neural-Network&theme=github_dark&hide_border=true" />
       </a>
     </td>
   </tr>
 </table>
+
+
 
 ---
 
