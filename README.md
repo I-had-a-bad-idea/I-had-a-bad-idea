@@ -71,8 +71,7 @@ I enjoy learning by building projects in whatever field I want to learn.
 ---
 
 ## Currently working on
-- IPL (An interpreted programming language in Rust)
-- ILI (IPL library installer)
+- IPL (An interpreted programming language written in Rust)
 
 ## Some (possibly) interesting statistics
 
