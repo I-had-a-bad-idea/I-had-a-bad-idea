@@ -1,10 +1,5 @@
 <div align="center">
   <h1>I-had-a-bad-idea</h1>
-  
-<img align="right" alt="GIF" width="80px" height="80px" src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" />
-  
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&pause=1000&color=58A6FF&center=true&vCenter=true&width=435&lines=Student+from+Germany;I+programm,+therefore+I+am;Join+the+dark+side;Command+line+enjoyer;Tabs+over+spaces" alt="Typing SVG" />
-</div>
 
 ---
 
@@ -83,11 +78,6 @@ I enjoy learning by building projects in whatever field I want to learn.
 Contributions Graph             | Contribution Time
 :-------------------------:|:-------------------------:
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=I-had-a-bad-idea&theme=github_dark&v=1)  |  ![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=I-had-a-bad-idea&theme=github_dark&v=1)
-
-
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&pause=1000&color=58A6FF&center=true&vCenter=true&width=435&lines=Never+Stop+Learning;Fail+faster,+learn+faster;Code.+Fail.+Learn.+Repeat." alt="Footer Typing SVG" />
-</div>
 
 ---
 
