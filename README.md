@@ -82,12 +82,9 @@ Contributions Graph             | Contribution Time
 
 ---
 
-### Fun Fact: I solved the world´s oldest question:
+### Fun Fact: I solved the world´s oldest question in one line of python:
 
 ```python
 # Which came first? The egg or the chicken?
-x = ['🥚', '🐔']
-x.sort()
-print(x)
-# Output: ['🐔', '🥚']
+print(sorted(['🥚', '🐔'])) # Output: ['🐔', '🥚']
 ```
