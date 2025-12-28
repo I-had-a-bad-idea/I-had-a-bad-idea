@@ -6,7 +6,7 @@
 ## Who am I?
 
 I'm a student from Germany with a passion for programming.  
-I enjoy learning by building projects in whatever field I want to learn.
+I enjoy learning by building projects in whatever field I want to learn.    
 I am a lazy person, so I constantly try to make my life easier with code.
 
 ---
