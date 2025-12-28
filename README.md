@@ -7,6 +7,7 @@
 
 I'm a student from Germany with a passion for programming.  
 I enjoy learning by building projects in whatever field I want to learn.
+I am a lazy person, so I constantly try to make my life easier with code.
 
 ---
 
@@ -66,6 +67,7 @@ I enjoy learning by building projects in whatever field I want to learn.
 ---
 
 ## Currently working on
+- Docgen (a documentation generator, because I am lazy)
 - Attacking my own website for educational purposes
 - A chatbot for my school.
 
