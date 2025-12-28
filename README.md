@@ -67,9 +67,7 @@ I enjoy learning by building projects in whatever field I want to learn.
 
 ## Currently working on
 - Attacking my own website for educational purposes
-- [IPL](https://github.com/I-had-a-bad-idea/IPL) (An interpreted programming language written in Rust)
 - A chatbot for my school.
-- [V.A.C.E](https://github.com/I-had-a-bad-idea/V.A.C.E) (Voice-Activated-Command-Executor) (a customizable voice activated desktop assistant)
 
 ## Some (possibly) interesting statistics
 
