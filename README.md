@@ -69,7 +69,7 @@ I am a lazy person, so I constantly try to make my life easier with code.
 ## Currently working on
 - Docgen (a documentation generator, because I am lazy)
 - Attacking my own website for educational purposes
-- A chatbot for my school.
+- A [chatbot](https://github.com/Willibald-Gluck-Gymnasium/gluck-bot) for my [school](https://github.com/Willibald-Gluck-Gymnasium)
 
 ## Some (possibly) interesting statistics
 
