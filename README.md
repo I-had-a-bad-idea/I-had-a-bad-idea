@@ -37,26 +37,26 @@ I am a lazy person, so I constantly try to make my life easier with code.
 
   <tr>
     <td>
-      <a href="https://github.com/I-had-a-bad-idea/V.A.C.E">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=V.A.C.E&theme=github_dark&hide_border=true" />
+      <a href="https://github.com/I-had-a-bad-idea/DocGen">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=DocGen&theme=github_dark&hide_border=true" />
       </a>
     </td>
     <td>
-      <a href="https://github.com/I-had-a-bad-idea/Rasterization-Renderer">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=Rasterization-Renderer&theme=github_dark&hide_border=true" />
+      <a href="https://github.com/I-had-a-bad-idea/V.A.C.E">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=V.A.C.E&theme=github_dark&hide_border=true" />
       </a>
     </td>
   </tr>
 
   <tr>
     <td>
-      <a href="https://github.com/I-had-a-bad-idea/Pixelmorph">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=Pixelmorph&theme=github_dark&hide_border=true" />
+      <a href="https://github.com/I-had-a-bad-idea/Rasterization-Renderer">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=Rasterization-Renderer&theme=github_dark&hide_border=true" />
       </a>
     </td>
     <td>
-      <a href="https://github.com/I-had-a-bad-idea/Screensaver">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=Screensaver&theme=github_dark&hide_border=true" />
+      <a href="https://github.com/I-had-a-bad-idea/Pixelmorph">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=Pixelmorph&theme=github_dark&hide_border=true" />
       </a>
     </td>
   </tr>
@@ -67,7 +67,7 @@ I am a lazy person, so I constantly try to make my life easier with code.
 ---
 
 ## Currently working on
-- Docgen (a documentation generator, because I am lazy)
+- [DocGen](https://github.com/I-had-a-bad-idea/DocGen) (a documentation generator, because I am lazy)
 - Attacking my own website for educational purposes
 - A [chatbot](https://github.com/Willibald-Gluck-Gymnasium/gluck-bot) for my [school](https://github.com/Willibald-Gluck-Gymnasium)
 
