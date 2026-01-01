@@ -8,7 +8,8 @@
 I'm a student from Germany with a passion for programming.  
 I learn by building projects, and being lazy means I automate everything I can.
 
-Creator of [IPL](https://github.com/IPL-Foundation/IPL) and it´s ecosystem.
+Creator of [IPL](https://github.com/IPL-Foundation/IPL) and it´s ecosystem.  
+Owner of the [IPL-Foundation](https://github.com/IPL-Foundation).
 
 ---
 
