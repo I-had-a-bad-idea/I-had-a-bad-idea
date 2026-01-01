@@ -6,8 +6,9 @@
 ## Who am I?
 
 I'm a student from Germany with a passion for programming.  
-I enjoy learning by building projects in whatever field I want to learn.    
-I am a lazy person, so I constantly try to make my life easier with code.
+I learn by building projects, and being lazy means I automate everything I can.
+
+Creator of [IPL](https://github.com/IPL-Foundation/IPL) and it´s ecosystem.
 
 ---
 
@@ -24,13 +25,13 @@ I am a lazy person, so I constantly try to make my life easier with code.
 <table>
   <tr>
     <td>
-      <a href="https://github.com/I-had-a-bad-idea/IPL">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=IPL&theme=github_dark&hide_border=true" />
+      <a href="https://github.com/IPL-Foundation/IPL">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=IPL-Foundation&repo=IPL&theme=github_dark&hide_border=true" />
       </a>
     </td>
     <td>
-      <a href="https://github.com/I-had-a-bad-idea/ILI">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=ILI&theme=github_dark&hide_border=true" />
+      <a href="https://github.com/IPL-Foundation/ILI">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=IPL-Foundation&repo=ILI&theme=github_dark&hide_border=true" />
       </a>
     </td>
   </tr>
