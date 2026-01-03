@@ -21,7 +21,7 @@ Owner of the [IPL-Foundation](https://github.com/IPL-Foundation).
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
 
-## Interesting Stuff I made
+## Stuff I am (mostly) proud of
 
 <table>
   <tr>

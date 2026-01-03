@@ -1,4 +1,4 @@
-name: Update language stats
+name: Update profile
 
 on:
     schedule:
@@ -15,22 +15,23 @@ jobs:
 
         steps:
             - uses: actions/checkout@v4
-
-            - uses: actions/setup-node@v4
+            
+            - name: Setup node
+              uses: actions/setup-node@v4
               with:
                 node-version: 20
-
-            - run: npm install node-fetch
-            - run: node scripts/language_stats.js
+            
+            - name: Install dependencies
+              run: npm install node-fetch
+            
+            - name: Update language stats svg
+              run: node scripts/language_stats.js
               env:
                 GH_USER: I-had-a-bad-idea
                 GH_PAT: ${{ secrets.GH_PAT }}
             
-            - name: Add timestamp to SVG
-              run: |
-                TIMESTAMP=$(date +%s)
-                # Replace existing Markdown reference with timestamp query
-                sed -i "s|!\[Top Languages\](assets/top-langs.svg.*)|![Top Languages](assets/top-langs.svg?ts=$TIMESTAMP)|g" README.md
+            - name: Update README
+              run: node scripts/readme.js
             
             - name: Commit changes
               run: |
