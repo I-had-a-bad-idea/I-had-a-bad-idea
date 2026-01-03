@@ -73,8 +73,8 @@ const bars = sorted.map(([lang, size]) => {
     const pct = ((size / sum) * 100).toFixed(1);
     const bar_width = Math.round((size / sum) * 260);
     const row = `
-    <text x="0" y ="${y + 12}" fill="#c9d1d9" font-size="12">${lang} ${pct}%</text>
-    <rect x="0" y="${y + 16}" width="${bar_width}" height="8" fill="#58a6ff" />
+    <text x="0" y ="${y + 12}" fill="#0011ffff" font-size="12">${lang} ${pct}%</text>
+    <rect x="0" y="${y + 16}" width="${bar_width}" height="8" fill="#ff0000ff" />
     `;
     y += 32;
     return row

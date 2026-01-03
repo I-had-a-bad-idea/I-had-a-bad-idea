@@ -75,9 +75,7 @@ Owner of the [IPL-Foundation](https://github.com/IPL-Foundation).
 
 ## Some (possibly) interesting statistics
 
-<div align="center">
-  <img src="assets/top-lang.svg" alt="Top Languages" />
-</div>
+![Top Languages](assets/top-lang.svg)
 
 Contributions Graph             | Contribution Time
 :-------------------------:|:-------------------------:
