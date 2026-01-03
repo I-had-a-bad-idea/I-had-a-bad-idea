@@ -11,7 +11,7 @@ if (!pat || !user) {
     process.exit(1);
 }
 
-async function send_query(query) {
+async function send_query(query, variables) {
     // Send query to GraphQL
     const res = await fetch("https://api.github.com/graphql", {
         method: "POST",
@@ -19,7 +19,7 @@ async function send_query(query) {
             Authorization: `Bearer ${pat}`, // Authenticate with PAT
             "Content-Type": "application/json",
         },
-        body: JSON.stringify({ query, variables: { login: user } }),
+        body: JSON.stringify({ query, variables: variables }),
     });
 
     const json = await res.json();
@@ -50,8 +50,7 @@ async function lang_query() {
         }
     }
     `;
-    const json = await send_query(query);
-    fs.mkdirSync("assets", { recursive: true });
+    const json = await send_query(query, { login: user });
     fs.writeFileSync("assets/langs.txt", JSON.stringify(json, null, 2));
 }
 
@@ -78,8 +77,12 @@ async function most_active_repos_query() {
         }
     }
     `;
-
+    const json = await send_query(query, { login: user, since: since });
+    fs.writeFileSync("assets/active-repos.txt", JSON.stringify(json, null, 2));
 }
 
-await lang_query();
 
+fs.mkdirSync("assets", { recursive: true });
+
+await lang_query();
+await most_active_repos_query();
