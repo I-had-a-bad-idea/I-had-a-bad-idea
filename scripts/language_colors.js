@@ -1,3 +1,5 @@
+// Not my code: https://gist.github.com/kalanakt/ec888c71a82de2b4a1ebdfc03cee4500
+
 const language_colors = {
     "ABAP": "#E8274B", 
     "ActionScript": "#882B0F", 
