@@ -91,4 +91,4 @@ const svg = `
 `;
 
 fs.mkdirSync("assets", { recursive: true });
-fs.writeFileSync("assets/top-lang.svg", svg.trim());
+fs.writeFileSync("assets/top-langs.svg", svg.trim());
