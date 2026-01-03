@@ -1,4 +1,4 @@
-import fs from "fs";
+const fs = require("fs");
 
 const data = fs.readFileSync("assets/langs.txt", "utf-8");
 const json = JSON.parse(data);

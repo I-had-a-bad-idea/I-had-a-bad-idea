@@ -1,5 +1,5 @@
-import fetch from "node-fetch";
-import fs from "fs";
+const fetch = require("node-fetch");
+const fs = require("fs");
 
 // Get user and PAT
 const user = process.env.GH_USER;
@@ -53,6 +53,32 @@ async function lang_query() {
     const json = await send_query(query);
     fs.mkdirSync("assets", { recursive: true });
     fs.writeFileSync("assets/langs.txt", JSON.stringify(json, null, 2));
+}
+
+async function most_active_repos_query() {
+    const since = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000).toISOString();
+    const query = `
+    query($login: String!, $since: GitTimestamp!) {
+        user(login: $login) {
+            repositories(first: 50, orderBy: {field: PUSHED_AT, direction: DESC}) {
+                nodes {
+                name
+                url
+                defaulBranchRef {
+                    target {
+                        ...on Commit {
+                            history(since: $since) {
+                                totalCount
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    `;
+
 }
 
 await lang_query();
