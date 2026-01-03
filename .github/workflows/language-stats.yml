@@ -10,7 +10,7 @@ permissions:
     contents: write
 
 jobs:
-    build:
+    generate:
         runs-on: ubuntu-latest
 
         steps:
@@ -19,7 +19,7 @@ jobs:
             - uses: actions/setup-node@v4
               with:
                 node-version: 20
-                
+
             - run: npm install node-fetch
             - run: node scripts/language_stats.js
               env:
