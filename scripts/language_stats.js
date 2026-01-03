@@ -1,5 +1,7 @@
 const fs = require("fs");
 
+const rm = ["GDScript", "GDShader", "Ruby"] // Languages taking way too many bytes or languages I didnt activly use.
+
 const data = fs.readFileSync("assets/langs.txt", "utf-8");
 const json = JSON.parse(data);
 if (json.errors) throw json.errors;
@@ -12,6 +14,7 @@ repos.forEach(repo => {
     if (!repo?.languages?.edges) return; // If it cant be accessed, doesnt exists, etc.
 
     repo.languages.edges.forEach(({ size, node}) => {
+        if (rm.includes(node.name)) continue;
         totals[node.name] = (totals[node.name] || 0) + size;
     });
 });
