@@ -1,15 +1,19 @@
 const fs = require("fs");
 const language_colors = require("./language_colors");
 
+
+const other_technologies = [
+    "VS Code",
+    "Git",
+]
+
 // Read README
 const readme = fs.readFileSync("README.md", "utf-8");
 
-// Normalize line endings to \n
-let new_readme = readme.replace(/\r\n/g, "\n");
 
 const ts = Date.now();
 // Add timestamp for forced reloading
-new_readme = new_readme.replace(
+let new_readme = readme.replace(
     /!\[Top Languages\]\(assets\/top-langs.svg.*?\)/,
     `![Top Languages](assets/top-langs.svg?ts=${ts})`
 );
@@ -18,10 +22,16 @@ const data = fs.readFileSync("assets/top-langs.txt", "utf-8");
 const top_languages = JSON.parse(data);
 // [[lang, size]]
 
-const badges = top_languages.map(lang => {
-    const name = encodeURIComponent(lang[0]);
-    const color = (language_colors[name] || "#ffffffff").replace("#", "")
-    return `![${lang[0]}](https://img.shields.io/badge/${name}-${name}-${color}?style=flat-square&logo=${name}&logoColor=auto)`;
+// Combine technologies
+const technologies = [
+    ...other_technologies,
+    ...top_languages.map(l => l[0])
+];
+
+const badges = technologies.map(name => {
+    const encoded = encodeURIComponent(name);
+    const color = (language_colors[name] || "#cccccc").replace("#", "")
+    return `![${name}](https://img.shields.io/badge/${encoded}-${encoded}-${color}?style=flat-square&logo=${encoded}&logoColor=auto)`;
 }).join("\n");
 
 
