@@ -24,11 +24,14 @@ jobs:
             - name: Install dependencies
               run: npm install node-fetch
             
-            - name: Update language stats svg
-              run: node scripts/language_stats.js
+            - name: Run GraphQL queries
+              run: node scripts/graphql.js
               env:
                 GH_USER: I-had-a-bad-idea
                 GH_PAT: ${{ secrets.GH_PAT }}
+
+            - name: Update language stats svg
+              run: node scripts/language_stats.js
             
             - name: Update README
               run: node scripts/readme.js

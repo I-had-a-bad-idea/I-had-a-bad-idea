@@ -18,8 +18,8 @@ let new_readme = readme.replace(
     `![Top Languages](assets/top-langs.svg?ts=${ts})`
 );
 
-const data = fs.readFileSync("assets/top-langs.txt", "utf-8");
-const top_languages = JSON.parse(data);
+const lang_data = fs.readFileSync("assets/top-langs.txt", "utf-8");
+const top_languages = JSON.parse(lang_data);
 // [[lang, size]]
 
 // Combine technologies
@@ -35,11 +35,36 @@ const badges = technologies.map(name => {
 }).join("\n");
 
 
-const parts = new_readme.split("## Technologies I use");
-const before = parts[0];
-const after = parts[1].split("## Stuff I am (mostly) proud of")[1];
+const badges_parts = new_readme.split("## Technologies I use");
+const badges_before = badges_parts[0];
+const badges_after = badges_parts[1].split("## Stuff I am (mostly) proud of")[1];
 
-new_readme = `${before}## Technologies I use\n\n${badges}\n\n## Stuff I am (mostly) proud of${after}`
+new_readme = `${badges_before}## Technologies I use\n\n${badges}\n\n## Stuff I am (mostly) proud of${badges_after}`
+
+// Read json
+const repo_data = fs.readFileSync("assets/active-repos.txt", "utf-8");
+const repo_json = JSON.parse(repo_data);
+const most_active_repos = repo_json.data.user.repositories.nodes;
+
+// Take first repos
+const top5_repos = most_active_repos
+    // Sort by number of commits desc
+    .sort((a, b) => b.defaultBranchRef.target.history.totalCount - a.defaultBranchRef.target.history.totalCount)
+    .slice(0, 5); // Get top 5
+
+// Create markdown listing the repos, with name, url and number of commits.
+const repo_list_md = top5_repos
+    .map(r => `- [${r.name}](${r.url}) (${r.defaultBranchRef.target.history.totalCount} commits)`)
+    .join("\n");
+
+
+const repos_parts = new_readme.split("### Most active repos this week");
+const repos_before = repos_parts[0];
+const repos_after = repos_parts[1].split("---")[1];
+
+
+
+new_readme = `${repos_before}### Most active repos this week\n\n${repo_list_md}\n\n---${repos_after}`;
 
 
 fs.writeFileSync("README.md", new_readme, "utf-8");
