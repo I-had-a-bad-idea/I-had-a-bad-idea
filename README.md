@@ -76,8 +76,7 @@ Owner of the [IPL-Foundation](https://github.com/IPL-Foundation).
 ## Some (possibly) interesting statistics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=I-had-a-bad-idea&layout=compact&theme=github_dark&hide_border=true&hide_title=true&v=2" alt="Top Languages" width="50%" />
-
+  <img src="assets/top-lang.svg" alt="Top Languages" />
 </div>
 
 Contributions Graph             | Contribution Time
