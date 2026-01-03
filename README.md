@@ -77,11 +77,19 @@ Owner of the [IPL-Foundation](https://github.com/IPL-Foundation).
 
 ## Some (possibly) interesting statistics
 
-![Top Languages](assets/top-langs.svg?ts=1767453510392)
+![Top Languages](assets/top-langs.svg?ts=1767455559632)
 
 Contributions Graph             | Contribution Time
 :-------------------------:|:-------------------------:
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=I-had-a-bad-idea&theme=github_dark&v=2)  |  ![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=I-had-a-bad-idea&theme=github_dark&v=2)
+
+### Most active repos this week
+
+- [DocGen](https://github.com/I-had-a-bad-idea/DocGen) (70 commits)
+- [I-had-a-bad-idea](https://github.com/I-had-a-bad-idea/I-had-a-bad-idea) (32 commits)
+- [IPL](https://github.com/IPL-Foundation/IPL) (29 commits)
+- [ILI](https://github.com/IPL-Foundation/ILI) (1 commits)
+- [IPL-Highlighting-VS-Code](https://github.com/IPL-Foundation/IPL-Highlighting-VS-Code) (1 commits)
 
 ---
 
