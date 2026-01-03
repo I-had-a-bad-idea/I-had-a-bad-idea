@@ -14,8 +14,9 @@ repos.forEach(repo => {
     if (!repo?.languages?.edges) return; // If it cant be accessed, doesnt exists, etc.
 
     repo.languages.edges.forEach(({ size, node}) => {
-        if (rm.includes(node.name)) continue;
-        totals[node.name] = (totals[node.name] || 0) + size;
+        if (!rm.includes(node.name)) {
+            totals[node.name] = (totals[node.name] || 0) + size;
+        }
     });
 });
 
