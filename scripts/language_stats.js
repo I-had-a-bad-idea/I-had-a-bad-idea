@@ -92,3 +92,4 @@ const svg = `
 
 fs.mkdirSync("assets", { recursive: true });
 fs.writeFileSync("assets/top-langs.svg", svg.trim());
+fs.writeFileSync("assets/top-langs.txt", JSON.stringify(sorted, null, 2));

@@ -15,13 +15,15 @@ Owner of the [IPL-Foundation](https://github.com/IPL-Foundation).
 
 ## Technologies I use
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=Python&logoColor=white)
-![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
-![Rust](https://img.shields.io/badge/-Rust-F74C00?style=flat-square&logo=Rust&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-VS%20Code-cccccc?style=flat-square&logo=VS%20Code&logoColor=auto)
+![Git](https://img.shields.io/badge/Git-Git-cccccc?style=flat-square&logo=Git&logoColor=auto)
+![Python](https://img.shields.io/badge/Python-Python-3572A5?style=flat-square&logo=Python&logoColor=auto)
+![Rust](https://img.shields.io/badge/Rust-Rust-dea584?style=flat-square&logo=Rust&logoColor=auto)
+![C++](https://img.shields.io/badge/C%2B%2B-C%2B%2B-cccccc?style=flat-square&logo=C%2B%2B&logoColor=auto)
+![JavaScript](https://img.shields.io/badge/JavaScript-JavaScript-f1e05a?style=flat-square&logo=JavaScript&logoColor=auto)
+![Shell](https://img.shields.io/badge/Shell-Shell-89e051?style=flat-square&logo=Shell&logoColor=auto)
 
-## Interesting Stuff I made
+## Stuff I am (mostly) proud of
 
 <table>
   <tr>
@@ -75,7 +77,7 @@ Owner of the [IPL-Foundation](https://github.com/IPL-Foundation).
 
 ## Some (possibly) interesting statistics
 
-![Top Languages](assets/top-langs.svg?ts=1767448628)
+![Top Languages](assets/top-langs.svg?ts=1767452461390)
 
 Contributions Graph             | Contribution Time
 :-------------------------:|:-------------------------:
