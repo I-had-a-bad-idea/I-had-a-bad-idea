@@ -15,11 +15,11 @@ Owner of the [IPL-Foundation](https://github.com/IPL-Foundation).
 
 ## Technologies I use
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=Python&logoColor=white)
-![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
-![Rust](https://img.shields.io/badge/-Rust-F74C00?style=flat-square&logo=Rust&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
+![Python](https://img.shields.io/badge/Python-Python?style=flat-square&logo=Python&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-Rust?style=flat-square&logo=Rust&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-C%2B%2B?style=flat-square&logo=C%2B%2B&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-JavaScript?style=flat-square&logo=JavaScript&logoColor=white)
+![Shell](https://img.shields.io/badge/Shell-Shell?style=flat-square&logo=Shell&logoColor=white)
 
 ## Stuff I am (mostly) proud of
 
@@ -75,7 +75,7 @@ Owner of the [IPL-Foundation](https://github.com/IPL-Foundation).
 
 ## Some (possibly) interesting statistics
 
-![Top Languages](assets/top-langs.svg)
+![Top Languages](assets/top-langs.svg?ts=1767451167608)
 
 Contributions Graph             | Contribution Time
 :-------------------------:|:-------------------------:
