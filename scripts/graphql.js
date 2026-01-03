@@ -50,7 +50,7 @@ async function lang_query() {
         }
     }
     `;
-    json = await send_query(query);
+    const json = await send_query(query);
     fs.mkdirSync("assets", { recursive: true });
     fs.writeFileSync("assets/langs.txt", JSON.stringify(json, null, 2));
 }

@@ -4,17 +4,17 @@
         text { font-family: system-ui, -apple-system, BlinkMacSystemFont; }
     </style>
     
-    <text x="0" y ="42" fill="#ffffffff" font-size="12">Python 49.5%</text>
-    <rect x="0" y="46" width="129" height="8" fill="#ff0000ff" />
+    <text x="0" y ="42" fill="#ffffffff" font-size="12">Python 48.7%</text>
+    <rect x="0" y="46" width="126" height="8" fill="#ff0000ff" />
     
-    <text x="0" y ="74" fill="#ffffffff" font-size="12">Rust 32.1%</text>
-    <rect x="0" y="78" width="83" height="8" fill="#ff0000ff" />
+    <text x="0" y ="74" fill="#ffffffff" font-size="12">Rust 31.5%</text>
+    <rect x="0" y="78" width="82" height="8" fill="#ff0000ff" />
     
-    <text x="0" y ="106" fill="#ffffffff" font-size="12">C++ 17.2%</text>
-    <rect x="0" y="110" width="45" height="8" fill="#ff0000ff" />
+    <text x="0" y ="106" fill="#ffffffff" font-size="12">C++ 16.9%</text>
+    <rect x="0" y="110" width="44" height="8" fill="#ff0000ff" />
     
-    <text x="0" y ="138" fill="#ffffffff" font-size="12">JavaScript 0.9%</text>
-    <rect x="0" y="142" width="2" height="8" fill="#ff0000ff" />
+    <text x="0" y ="138" fill="#ffffffff" font-size="12">JavaScript 2.6%</text>
+    <rect x="0" y="142" width="7" height="8" fill="#ff0000ff" />
     
     <text x="0" y ="170" fill="#ffffffff" font-size="12">Shell 0.3%</text>
     <rect x="0" y="174" width="1" height="8" fill="#ff0000ff" />
