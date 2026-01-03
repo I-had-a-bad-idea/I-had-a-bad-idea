@@ -1,5 +1,5 @@
-const fetch = require("node-fetch");
-const fs = require("fs");
+import fetch from "node-fetch";
+import fs from "fs";
 
 // Get user and PAT
 const user = process.env.GH_USER;
@@ -63,7 +63,7 @@ async function most_active_repos_query() {
                 nodes {
                 name
                 url
-                defaulBranchRef {
+                defaultBranchRef {
                     target {
                         ...on Commit {
                             history(since: $since) {
