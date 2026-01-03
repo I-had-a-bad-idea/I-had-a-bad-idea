@@ -1,4 +1,5 @@
-import fs from "fs";
+const fs = require("fs");
+const language_colors = require("./language_colors");
 
 // Read README
 const readme = fs.readFileSync("README.md", "utf-8");
@@ -17,10 +18,10 @@ const data = fs.readFileSync("assets/top-langs.txt", "utf-8");
 const top_languages = JSON.parse(data);
 // [[lang, size]]
 
-
 const badges = top_languages.map(lang => {
-    const logo = encodeURIComponent(lang[0]);
-    return `![${lang[0]}](https://img.shields.io/badge/${logo}-${logo}?style=flat-square&logo=${logo}&logoColor=white)`;
+    const name = encodeURIComponent(lang[0]);
+    const color = (language_colors[name] || "#ffffffff").replace("#", "")
+    return `![${lang[0]}](https://img.shields.io/badge/${name}-${name}-${color}?style=flat-square&logo=${name}&logoColor=auto)`;
 }).join("\n");
 
 
