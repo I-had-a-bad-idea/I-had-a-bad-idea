@@ -19,7 +19,8 @@ jobs:
             - uses: actions/setup-node@v4
               with:
                 node-version: 20
-            
+                
+            - run: npm install node-fetch
             - run: node scripts/language_stats.js
               env:
                 GH_USER: I-had-a-bad-idea
