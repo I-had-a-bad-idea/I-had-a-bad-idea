@@ -91,30 +91,6 @@ Contributions Graph             | Contribution Time
 :-------------------------:|:-------------------------:
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=I-had-a-bad-idea&theme=github_dark&v=2)  |  ![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=I-had-a-bad-idea&theme=github_dark&v=2)
 
-### Repo stats
-
-| Repo | Total Lines | Top Language |
-|------|------------|--------------|
-| I-had-a-bad-idea | 1086 | JavaScript: 417 |
-| IPL | 2687 | Rust: 1859 |
-| DocGen | 751 | Markdown: 475 |
-| ILI | 406 | Rust: 356 |
-| IPL-Highlighting-VS-Code | 302 | JSON: 253 |
-| Example-IPL-Library | 38 | IPL: 29 |
-| website-vunerabilities | 2570 | JSON: 2231 |
-| V.A.C.E | 369444 | Text: 368974 |
-| ASCII-Generator | 1521 | Python: 1482 |
-| Screensaver | 337 | JSON: 150 |
-| PixelMorph | 122 | Python: 79 |
-| Binary-to-morse | 155 | Python: 112 |
-| Windows-System-Monitor | 495 | C#: 424 |
-| Hidden-Gems-2025 | 3528 | Ruby: 1510 |
-| DevFlow | 212 | Python: 197 |
-| Rasterization-Renderer | 1401 | C++: 789 |
-| Digit-Recognition-Neural-Network | 515 | Python: 368 |
-| Git-GUI | 950 | Python: 793 |
-| PV | 703 | Python: 368 |
-
 
 ### Most active repos this week
 

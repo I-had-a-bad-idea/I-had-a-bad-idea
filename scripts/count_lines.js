@@ -103,25 +103,25 @@ let new_readme = readme
     `![Lines Removed](https://img.shields.io/badge/Removed-${all_lines_removed}_lines-red)`
 );
 
-const parts = new_readme.split("### Repo stats");
-const before = parts[0];
-const after = parts[1].split("### Most active repos this week")[1];
+// const parts = new_readme.split("### Repo stats");
+// const before = parts[0];
+// const after = parts[1].split("### Most active repos this week")[1];
 
-let repo_table = "| Repo | Total Lines | Top Language |\n|------|------------|--------------|\n";
+// let repo_table = "| Repo | Total Lines | Top Language |\n|------|------------|--------------|\n";
 
-for (const [repo, [langData]] of Object.entries(all_repos)) {
-    if (rm.includes(repo)) continue;
+// for (const [repo, [langData]] of Object.entries(all_repos)) {
+//     if (rm.includes(repo)) continue;
 
-    const { SUM, ...langs } = langData; // exclude SUM
-    // Find top language and its lines
-    const top = Object.entries(langs).reduce(
-        (max, [lang, lines]) => (lines > max.lines ? { lang, lines } : max),
-        { lang: "", lines: 0 }
-    );
-    repo_table += `| ${repo} | ${SUM} | ${top.lang}: ${top.lines} |\n`;
-}
+//     const { SUM, ...langs } = langData; // exclude SUM
+//     // Find top language and its lines
+//     const top = Object.entries(langs).reduce(
+//         (max, [lang, lines]) => (lines > max.lines ? { lang, lines } : max),
+//         { lang: "", lines: 0 }
+//     );
+//     repo_table += `| ${repo} | ${SUM} | ${top.lang}: ${top.lines} |\n`;
+// }
 
-new_readme = `${before}### Repo stats\n\n${repo_table}\n\n### Most active repos this week${after}`;
+// new_readme = `${before}### Repo stats\n\n${repo_table}\n\n### Most active repos this week${after}`;
 
 
 fs.writeFileSync("README.md", new_readme);
