@@ -6,6 +6,16 @@ const pat = process.env.GH_PAT;
 
 let all_repos = {};
 
+// Repos that just take up space. Some of my earliest.
+const rm = ["Soulrush",
+    "Interplanetares-Planeten-Zerstoerungs-System",
+    "Musik-Licht",
+    "ASTRA-NAVIS",
+    "Soulrush",
+    "Godot-Environment",
+
+];
+
 if (fs.existsSync("assets/repo-line-counts.txt")) {
     all_repos = JSON.parse(fs.readFileSync("assets/repo-line-counts.txt", "utf-8"));
 }
@@ -81,7 +91,6 @@ for (const [repo, [, [added, removed]]] of Object.entries(all_repos)) {
 
 const readme = fs.readFileSync("README.md", "utf-8");
 
-console.log("Updating lines written");
 let new_readme = readme
   // Update "Added" shield
   .replace(
@@ -96,9 +105,21 @@ let new_readme = readme
 
 const parts = new_readme.split("### Repo stats");
 const before = parts[0];
-const after = parts[1].split("### Most active repos this week");
+const after = parts[1].split("### Most active repos this week")[1];
 
-let repo_table = "";
+let repo_table = "| Repo | Total Lines | Top Language |\n|------|------------|--------------|\n";
+
+for (const [repo, [langData]] of Object.entries(all_repos)) {
+    if (rm.includes(repo)) continue;
+
+    const { SUM, ...langs } = langData; // exclude SUM
+    // Find top language and its lines
+    const top = Object.entries(langs).reduce(
+        (max, [lang, lines]) => (lines > max.lines ? { lang, lines } : max),
+        { lang: "", lines: 0 }
+    );
+    repo_table += `| ${repo} | ${SUM} | ${top.lang}: ${top.lines} |\n`;
+}
 
 new_readme = `${before}### Repo stats\n\n${repo_table}\n\n### Most active repos this week${after}`;
 

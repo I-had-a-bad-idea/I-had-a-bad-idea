@@ -84,8 +84,8 @@ Owner of the [IPL-Foundation](https://github.com/IPL-Foundation).
 
 ![Top Languages](assets/top-langs.svg?ts=1767482794032)
 
-![Lines Added](https://img.shields.io/badge/Added-470645_lines-brightgreen)
-![Lines Removed](https://img.shields.io/badge/Removed-53136_lines-red)
+![Lines Added](https://img.shields.io/badge/Added-471107_lines-brightgreen)
+![Lines Removed](https://img.shields.io/badge/Removed-53159_lines-red)
 
 Contributions Graph             | Contribution Time
 :-------------------------:|:-------------------------:
@@ -93,10 +93,30 @@ Contributions Graph             | Contribution Time
 
 ### Repo stats
 
+| Repo | Total Lines | Top Language |
+|------|------------|--------------|
+| I-had-a-bad-idea | 1086 | JavaScript: 417 |
+| IPL | 2687 | Rust: 1859 |
+| DocGen | 751 | Markdown: 475 |
+| ILI | 406 | Rust: 356 |
+| IPL-Highlighting-VS-Code | 302 | JSON: 253 |
+| Example-IPL-Library | 38 | IPL: 29 |
+| website-vunerabilities | 2570 | JSON: 2231 |
+| V.A.C.E | 369444 | Text: 368974 |
+| ASCII-Generator | 1521 | Python: 1482 |
+| Screensaver | 337 | JSON: 150 |
+| PixelMorph | 122 | Python: 79 |
+| Binary-to-morse | 155 | Python: 112 |
+| Windows-System-Monitor | 495 | C#: 424 |
+| Hidden-Gems-2025 | 3528 | Ruby: 1510 |
+| DevFlow | 212 | Python: 197 |
+| Rasterization-Renderer | 1401 | C++: 789 |
+| Digit-Recognition-Neural-Network | 515 | Python: 368 |
+| Git-GUI | 950 | Python: 793 |
+| PV | 703 | Python: 368 |
 
 
 ### Most active repos this week
-
 
 
 - [DocGen](https://github.com/I-had-a-bad-idea/DocGen) (70 commits)
