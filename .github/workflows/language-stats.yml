@@ -2,7 +2,7 @@ name: Update profile
 
 on:
     schedule:
-        - cron: "0 23 * * *" # Run at 23:00 UTC (midnight in Germany) every day. 
+        - cron: "15 3 * * *" # Not at round hours and after midnight to avoid long wait.
 
     workflow_dispatch:
 
