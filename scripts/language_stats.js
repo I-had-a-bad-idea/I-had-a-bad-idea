@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-const rm = ["GDScript", "GDShader", "Ruby"] // Languages taking way too many bytes or languages I didnt activly use.
+const rm = ["GDScript", "GDShader", "Ruby"]; // Languages taking way too many bytes or languages I didnt activly use.
 
 const data = fs.readFileSync("temp/langs.txt", "utf-8");
 const json = JSON.parse(data);
@@ -9,7 +9,7 @@ if (json.errors) throw json.errors;
 const repos = json.data.user.repositoriesContributedTo.nodes;
 
 // Collect all languages and their size
-const totals = {}
+const totals = {};
 repos.forEach(repo => {
     if (!repo?.languages?.edges) return; // If it cant be accessed, doesnt exists, etc.
 
@@ -26,7 +26,7 @@ const sorted = Object.entries(totals)
     .slice(0, 10); // Keep top 10
 
 // Get total size of all langs in bytes
-const sum = sorted.reduce((a, [, v]) => a + v, 0)
+const sum = sorted.reduce((a, [, v]) => a + v, 0);
 
 let y = 30;
 const bars = sorted.map(([lang, size]) => {
