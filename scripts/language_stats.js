@@ -2,7 +2,7 @@ const fs = require("fs");
 
 const rm = ["GDScript", "GDShader", "Ruby"] // Languages taking way too many bytes or languages I didnt activly use.
 
-const data = fs.readFileSync("assets/langs.txt", "utf-8");
+const data = fs.readFileSync("temp/langs.txt", "utf-8");
 const json = JSON.parse(data);
 if (json.errors) throw json.errors;
 
@@ -52,5 +52,6 @@ const svg = `
 </svg>
 `;
 
+fs.mkdirSync("assets", { recursive: true });
 fs.writeFileSync("assets/top-langs.svg", svg.trim());
-fs.writeFileSync("assets/top-langs.txt", JSON.stringify(sorted, null, 2));
+fs.writeFileSync("temp/top-langs.txt", JSON.stringify(sorted, null, 2));

@@ -18,7 +18,7 @@ let new_readme = readme.replace(
     `![Top Languages](assets/top-langs.svg?ts=${ts})`
 );
 
-const lang_data = fs.readFileSync("assets/top-langs.txt", "utf-8");
+const lang_data = fs.readFileSync("temp/top-langs.txt", "utf-8");
 const top_languages = JSON.parse(lang_data);
 // [[lang, size]]
 

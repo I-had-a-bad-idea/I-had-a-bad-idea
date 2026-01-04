@@ -51,7 +51,7 @@ async function lang_query() {
     }
     `;
     const json = await send_query(query, { login: user });
-    fs.writeFileSync("assets/langs.txt", JSON.stringify(json, null, 2));
+    fs.writeFileSync("temp/langs.txt", JSON.stringify(json, null, 2));
 }
 
 async function most_active_repos_query() {
@@ -78,11 +78,11 @@ async function most_active_repos_query() {
     }
     `;
     const json = await send_query(query, { login: user, since: since });
-    fs.writeFileSync("assets/active-repos.txt", JSON.stringify(json, null, 2));
+    fs.writeFileSync("temp/active-repos.txt", JSON.stringify(json, null, 2));
 }
 
 
-fs.mkdirSync("assets", { recursive: true });
+fs.mkdirSync("temp", { recursive: true });
 
 await lang_query();
 await most_active_repos_query();
