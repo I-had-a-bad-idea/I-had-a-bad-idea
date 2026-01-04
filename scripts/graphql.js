@@ -55,7 +55,9 @@ async function lang_query() {
 }
 
 async function most_active_repos_query() {
-    const since = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000).toISOString();
+    const one_week_in_ms = 7 * 24 * 60 * 60 * 1000;
+    const one_hour_in_ms =      1 * 60 * 60 * 1000;
+    const since = new Date(Date.now() - (one_week_in_ms + one_hour_in_ms)).toISOString(); // Last week + one extra hour
     const query = `
     query($login: String!, $since: GitTimestamp!) {
         user(login: $login) {
@@ -78,7 +80,10 @@ async function most_active_repos_query() {
     }
     `;
     const json = await send_query(query, { login: user, since: since });
-    fs.writeFileSync("temp/active-repos.txt", JSON.stringify(json, null, 2));
+    const filtered = json.data.user.repositories.nodes.filter(
+        repo => repo.defaultBranchRef.target.history.totalCount > 0
+    );
+    fs.writeFileSync("temp/active-repos.txt", JSON.stringify(filtered, null, 2));
 }
 
 
