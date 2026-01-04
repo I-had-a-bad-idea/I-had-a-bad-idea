@@ -69,3 +69,38 @@ for (let i = 0; i < active_repos.length; i++) {
 };
 
 fs.writeFileSync("assets/repo-line-counts.txt", JSON.stringify(all_repos, null, 2));
+
+let all_lines_added = 0;
+let all_lines_removed = 0;
+
+for (const [repo, [, [added, removed]]] of Object.entries(all_repos)) {
+    all_lines_added += added;
+    all_lines_removed += removed;
+}
+
+
+const readme = fs.readFileSync("README.md", "utf-8");
+
+console.log("Updating lines written");
+let new_readme = readme
+  // Update "Added" shield
+  .replace(
+    /!\[Lines Added\]\(https:\/\/img\.shields\.io\/badge\/Added-\d+_lines-brightgreen\)/,
+    `![Lines Added](https://img.shields.io/badge/Added-${all_lines_added}_lines-brightgreen)`
+  )
+  // Update "Removed" shield
+  .replace(
+    /!\[Lines Removed\]\(https:\/\/img\.shields\.io\/badge\/Removed-\d+_lines-red\)/,
+    `![Lines Removed](https://img.shields.io/badge/Removed-${all_lines_removed}_lines-red)`
+);
+
+const parts = new_readme.split("### Repo stats");
+const before = parts[0];
+const after = parts[1].split("### Most active repos this week");
+
+let repo_table = "";
+
+new_readme = `${before}### Repo stats\n\n${repo_table}\n\n### Most active repos this week${after}`;
+
+
+fs.writeFileSync("README.md", new_readme);

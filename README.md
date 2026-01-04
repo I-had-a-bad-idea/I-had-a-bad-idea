@@ -84,11 +84,20 @@ Owner of the [IPL-Foundation](https://github.com/IPL-Foundation).
 
 ![Top Languages](assets/top-langs.svg?ts=1767482794032)
 
+![Lines Added](https://img.shields.io/badge/Added-470645_lines-brightgreen)
+![Lines Removed](https://img.shields.io/badge/Removed-53136_lines-red)
+
 Contributions Graph             | Contribution Time
 :-------------------------:|:-------------------------:
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=I-had-a-bad-idea&theme=github_dark&v=2)  |  ![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=I-had-a-bad-idea&theme=github_dark&v=2)
 
+### Repo stats
+
+
+
 ### Most active repos this week
+
+
 
 - [DocGen](https://github.com/I-had-a-bad-idea/DocGen) (70 commits)
 - [I-had-a-bad-idea](https://github.com/I-had-a-bad-idea/I-had-a-bad-idea) (45 commits)
