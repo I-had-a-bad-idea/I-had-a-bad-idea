@@ -2,6 +2,7 @@ import fs from "fs";
 import { execSync } from "child_process";
 
 const user = process.env.GH_USER;
+const pat = process.env.GH_PAT;
 
 let all_repos = {};
 
@@ -16,7 +17,10 @@ const active_repos = JSON.parse(active_repos_data);
 
 function clone_all_repos(repos) {
     repos.forEach(repo => {
-        execSync(`git clone ${repo.url} repos/${repo.name}`, { stdio: 'inherit' });
+        execSync(
+        `git clone https://${user}:${pat}@github.com/${repo.url.split('github.com/')[1]} repos/${repo.name}`,
+        { stdio: 'inherit' }
+        );
     })
 }
 

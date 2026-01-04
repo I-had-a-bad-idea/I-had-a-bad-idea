@@ -28,6 +28,7 @@ jobs:
               run: node scripts/count_lines.js
               env:
                 GH_USER: I-had-a-bad-idea
+                GH_PAT: ${{ secrets.GH_PAT }}
                     
             - name: Commit changes
               run: |
