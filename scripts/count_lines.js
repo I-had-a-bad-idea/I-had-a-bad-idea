@@ -2,7 +2,6 @@ import fs from "fs";
 import { execSync } from "child_process";
 
 const user = process.env.GH_USER;
-// const user = "I-had-a-bad-idea";
 
 let all_repos = {};
 
@@ -12,10 +11,8 @@ if (fs.existsSync("assets/repo-line-counts.txt")) {
 
 
 const active_repos_data = fs.readFileSync("temp/active-repos.txt", "utf-8");
-const active_repos_json = JSON.parse(active_repos_data);
+const active_repos = JSON.parse(active_repos_data);
 
-
-const active_repos = active_repos_json.data.user.repositories.nodes;
 
 function clone_all_repos(repos) {
     repos.forEach(repo => {
@@ -57,7 +54,7 @@ function count_commited_lines_in_repo(repo_name) {
 
 fs.mkdirSync("repos", { recursive: true });
 fs.mkdirSync("temp", { recursive: true });
-// clone_all_repos(active_repos);
+clone_all_repos(active_repos);
 for (let i = 0; i < active_repos.length; i++) {
     let repo_name = active_repos[i].name;
     console.log(`Doing repo: ${repo_name}`);
