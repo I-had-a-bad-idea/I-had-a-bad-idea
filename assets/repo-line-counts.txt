@@ -1,16 +1,17 @@
 {
   "I-had-a-bad-idea": [
     {
-      "JavaScript": 385,
+      "JavaScript": 417,
+      "Text": 397,
       "JSON": 108,
       "Markdown": 83,
-      "YAML": 61,
+      "YAML": 65,
       "SVG": 16,
-      "SUM": 653
+      "SUM": 1086
     },
     [
-      2267,
-      1530
+      2729,
+      1553
     ]
   ],
   "IPL": [
