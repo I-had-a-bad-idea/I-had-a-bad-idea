@@ -31,13 +31,15 @@ const sum = sorted.reduce((a, [, v]) => a + v, 0)
 let y = 30;
 const bars = sorted.map(([lang, size]) => {
     const pct = ((size / sum) * 100).toFixed(1);
-    const bar_width = Math.round((size / sum) * 260);
-    const row = `
-    <text x="0" y ="${y + 12}" fill="#ffffffff" font-size="12">${lang} ${pct}%</text>
-    <rect x="0" y="${y + 16}" width="${bar_width}" height="8" fill="#ff0000ff" />
-    `;
-    y += 32;
-    return row
+    if (pct > 0.5) {
+        const bar_width = Math.round((size / sum) * 260);
+        const row = `
+        <text x="0" y ="${y + 12}" fill="#ffffffff" font-size="12">${lang} ${pct}%</text>
+        <rect x="0" y="${y + 16}" width="${bar_width}" height="8" fill="#ff0000ff" />
+        `;
+        y += 32;
+        return row
+    }
 }).join("");
 
 const svg = `
