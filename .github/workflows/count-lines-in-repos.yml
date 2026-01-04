@@ -2,7 +2,7 @@ name: Count lines
 
 on:
     schedule:
-        - cron: "45 3 * * 0" # Not at round hours and after midnight to avoid long wait. Every sunday. After daily workflow.
+        - cron: "45 3 * * 1" # Not at round hours and after midnight to avoid long wait. Every monday. After daily workflow.
 
     workflow_dispatch:
 
