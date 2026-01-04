@@ -26,6 +26,8 @@ jobs:
 
             - name: Count lines
               run: node scripts/count_lines.js
+              env:
+                GH_USER: I-had-a-bad-idea
                     
             - name: Commit changes
               run: |
