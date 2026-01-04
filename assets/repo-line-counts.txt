@@ -1,0 +1,318 @@
+{
+  "I-had-a-bad-idea": [
+    {
+      "JavaScript": 385,
+      "JSON": 108,
+      "Markdown": 83,
+      "YAML": 61,
+      "SVG": 16,
+      "SUM": 653
+    },
+    [
+      2267,
+      1530
+    ]
+  ],
+  "IPL": [
+    {
+      "Rust": 1859,
+      "Markdown": 537,
+      "IPL": 242,
+      "YAML": 40,
+      "TOML": 9,
+      "SUM": 2687
+    },
+    [
+      7613,
+      3896
+    ]
+  ],
+  "DocGen": [
+    {
+      "Markdown": 475,
+      "Python": 276,
+      "SUM": 751
+    },
+    [
+      2711,
+      1379
+    ]
+  ],
+  "ILI": [
+    {
+      "Rust": 356,
+      "Markdown": 42,
+      "TOML": 7,
+      "Text": 1,
+      "SUM": 406
+    },
+    [
+      1158,
+      411
+    ]
+  ],
+  "IPL-Highlighting-VS-Code": [
+    {
+      "JSON": 253,
+      "Markdown": 49,
+      "SUM": 302
+    },
+    [
+      1272,
+      912
+    ]
+  ],
+  "Example-IPL-Library": [
+    {
+      "IPL": 29,
+      "JSON": 6,
+      "Markdown": 3,
+      "SUM": 38
+    },
+    [
+      79,
+      8
+    ]
+  ],
+  "website-vunerabilities": [
+    {
+      "JSON": 2231,
+      "JavaScript": 150,
+      "Markdown": 83,
+      "CSS": 66,
+      "HTML": 20,
+      "Text": 20,
+      "SUM": 2570
+    },
+    [
+      2808,
+      110
+    ]
+  ],
+  "V.A.C.E": [
+    {
+      "Text": 368974,
+      "Python": 294,
+      "JSON": 94,
+      "Markdown": 82,
+      "SUM": 369444
+    },
+    [
+      370705,
+      602
+    ]
+  ],
+  "ASCII-Generator": [
+    {
+      "Python": 1482,
+      "Markdown": 37,
+      "Text": 2,
+      "SUM": 1521
+    },
+    [
+      2174,
+      336
+    ]
+  ],
+  "Screensaver": [
+    {
+      "JSON": 150,
+      "C++": 137,
+      "Markdown": 50,
+      "SUM": 337
+    },
+    [
+      627,
+      155
+    ]
+  ],
+  "PixelMorph": [
+    {
+      "Python": 79,
+      "Markdown": 43,
+      "SUM": 122
+    },
+    [
+      500,
+      100
+    ]
+  ],
+  "Binary-to-morse": [
+    {
+      "Python": 112,
+      "Markdown": 43,
+      "SUM": 155
+    },
+    [
+      371,
+      130
+    ]
+  ],
+  "Windows-System-Monitor": [
+    {
+      "C#": 424,
+      "MSBuild script": 26,
+      "Visual Studio Solution": 23,
+      "JSON": 20,
+      "Markdown": 2,
+      "SUM": 495
+    },
+    [
+      888,
+      206
+    ]
+  ],
+  "Hidden-Gems-2025": [
+    {
+      "Ruby": 1510,
+      "C/C++ Header": 1248,
+      "C++": 729,
+      "Markdown": 15,
+      "make": 14,
+      "DOS Batch": 6,
+      "Bourne Shell": 4,
+      "YAML": 2,
+      "SUM": 3528
+    },
+    [
+      5693,
+      1676
+    ]
+  ],
+  "DevFlow": [
+    {
+      "Python": 197,
+      "Text": 13,
+      "Markdown": 2,
+      "SUM": 212
+    },
+    [
+      598,
+      88
+    ]
+  ],
+  "Rasterization-Renderer": [
+    {
+      "C++": 789,
+      "C/C++ Header": 341,
+      "JSON": 157,
+      "Markdown": 114,
+      "SUM": 1401
+    },
+    [
+      14411,
+      2074
+    ]
+  ],
+  "Digit-Recognition-Neural-Network": [
+    {
+      "Python": 368,
+      "Markdown": 147,
+      "SUM": 515
+    },
+    [
+      1467,
+      509
+    ]
+  ],
+  "Git-GUI": [
+    {
+      "Python": 793,
+      "Markdown": 157,
+      "SUM": 950
+    },
+    [
+      2083,
+      573
+    ]
+  ],
+  "Soulrush": [
+    {
+      "GDScript": 457,
+      "Godot Scene": 155,
+      "INI": 3,
+      "Markdown": 3,
+      "SVG": 1,
+      "SUM": 619
+    },
+    [
+      1797,
+      678
+    ]
+  ],
+  "Godot-Environment": [
+    {
+      "GDScript": 4054,
+      "SVG": 1878,
+      "Godot Scene": 1212,
+      "Godot Shaders": 743,
+      "Markdown": 260,
+      "Text": 44,
+      "INI": 3,
+      "SUM": 8194
+    },
+    [
+      49278,
+      37147
+    ]
+  ],
+  "PV": [
+    {
+      "Python": 368,
+      "Markdown": 331,
+      "Text": 4,
+      "SUM": 703
+    },
+    [
+      1713,
+      457
+    ]
+  ],
+  "ASTRA-NAVIS": [
+    {
+      "GDScript": 2619,
+      "Markdown": 1184,
+      "Godot Scene": 552,
+      "INI": 3,
+      "SVG": 1,
+      "SUM": 4359
+    },
+    [
+      432,
+      159
+    ]
+  ],
+  "Musik-Licht": [
+    {
+      "Godot Scene": 15375,
+      "GDScript": 2075,
+      "Markdown": 1190,
+      "Godot Resource": 269,
+      "Text": 146,
+      "XML": 89,
+      "Godot Shaders": 28,
+      "SVG": 13,
+      "INI": 3,
+      "SUM": 19188
+    },
+    [
+      0,
+      0
+    ]
+  ],
+  "Interplanetares-Planeten-Zerstoerungs-System": [
+    {
+      "Markdown": 1154,
+      "GDScript": 965,
+      "Godot Scene": 627,
+      "Text": 40,
+      "Godot Resource": 10,
+      "SVG": 1,
+      "SUM": 2797
+    },
+    [
+      0,
+      0
+    ]
+  ]
+}
