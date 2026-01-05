@@ -37,12 +37,12 @@ Owner of the [IPL-Foundation](https://github.com/IPL-Foundation).
   <tr>
     <td>
       <a href="https://github.com/IPL-Foundation/IPL">
-        <img src="github-readme-stats-iota-three-73.vercel.app/api/pin/?username=IPL-Foundation&repo=IPL&theme=github_dark&hide_border=true" />
+        <img src="github-readme-stats-I-had-a-bad-idea.vercel.app/api/pin/?username=IPL-Foundation&repo=IPL&theme=github_dark&hide_border=true" />
       </a>
     </td>
     <td>
       <a href="https://github.com/IPL-Foundation/ILI">
-        <img src="github-readme-stats-iota-three-73.vercel.app/api/pin/?username=IPL-Foundation&repo=ILI&theme=github_dark&hide_border=true" />
+        <img src="github-readme-stats-I-had-a-bad-idea.vercel.app/api/pin/?username=IPL-Foundation&repo=ILI&theme=github_dark&hide_border=true" />
       </a>
     </td>
   </tr>
@@ -50,12 +50,12 @@ Owner of the [IPL-Foundation](https://github.com/IPL-Foundation).
   <tr>
     <td>
       <a href="https://github.com/I-had-a-bad-idea/DocGen">
-        <img src="github-readme-stats-iota-three-73.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=DocGen&theme=github_dark&hide_border=true" />
+        <img src="github-readme-stats-I-had-a-bad-idea.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=DocGen&theme=github_dark&hide_border=true" />
       </a>
     </td>
     <td>
       <a href="https://github.com/I-had-a-bad-idea/C-Dictionary">
-        <img src="github-readme-stats-iota-three-73.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=C-Dictionary&theme=github_dark&hide_border=true" />
+        <img src="github-readme-stats-I-had-a-bad-idea.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=C-Dictionary&theme=github_dark&hide_border=true" />
       </a>
     </td>
   </tr>
@@ -63,12 +63,12 @@ Owner of the [IPL-Foundation](https://github.com/IPL-Foundation).
   <tr>
     <td>
       <a href="https://github.com/I-had-a-bad-idea/V.A.C.E">
-        <img src="github-readme-stats-iota-three-73.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=V.A.C.E&theme=github_dark&hide_border=true" />
+        <img src="github-readme-stats-I-had-a-bad-idea.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=V.A.C.E&theme=github_dark&hide_border=true" />
       </a>
     </td>
     <td>
       <a href="https://github.com/I-had-a-bad-idea/Pixelmorph">
-        <img src="github-readme-stats-iota-three-73.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=Pixelmorph&theme=github_dark&hide_border=true" />
+        <img src="github-readme-stats-I-had-a-bad-idea.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=Pixelmorph&theme=github_dark&hide_border=true" />
       </a>
     </td>
   </tr>
