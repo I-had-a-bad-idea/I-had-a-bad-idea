@@ -54,16 +54,16 @@ Owner of the [IPL-Foundation](https://github.com/IPL-Foundation).
       </a>
     </td>
     <td>
-      <a href="https://github.com/I-had-a-bad-idea/V.A.C.E">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=V.A.C.E&theme=github_dark&hide_border=true" />
+      <a href="https://github.com/I-had-a-bad-idea/C-Dictionary">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=C-Dictionary&theme=github_dark&hide_border=true" />
       </a>
     </td>
   </tr>
 
   <tr>
     <td>
-      <a href="https://github.com/I-had-a-bad-idea/Rasterization-Renderer">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=Rasterization-Renderer&theme=github_dark&hide_border=true" />
+      <a href="https://github.com/I-had-a-bad-idea/V.A.C.E">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=V.A.C.E&theme=github_dark&hide_border=true" />
       </a>
     </td>
     <td>
