@@ -22,17 +22,16 @@ const lang_data = fs.readFileSync("temp/langs.txt", "utf-8");
 const json = JSON.parse(lang_data);
 const repos = json.data.user.repositoriesContributedTo.nodes;
 
-const langMap = {};
+const lang_map = {};
 for (const repo of repos) {
-    console.log(repo);
     if (!repo) continue;
     for (const edge of repo.languages.edges) {
-        langMap[edge.node.name] =
-            (langMap[edge.node.name] || 0) + edge.size;
+        lang_map[edge.node.name] =
+            (lang_map[edge.node.name] || 0) + edge.size;
     }
 }
 
-const top_languages = Object.entries(langMap)
+const top_languages = Object.entries(lang_map)
     .sort((a, b) => b[1] - a[1]);
 
 // Combine technologies
@@ -56,8 +55,7 @@ new_readme = `${badges_before}## Technologies I use\n\n${badges}\n\n## Stuff I a
 
 // Read json
 const repo_data = fs.readFileSync("temp/active-repos.txt", "utf-8");
-const repo_json = JSON.parse(repo_data);
-const most_active_repos = repo_json;
+const most_active_repos = JSON.parse(repo_data);
 
 // Take first repos
 const top5_repos = most_active_repos
