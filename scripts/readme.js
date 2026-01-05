@@ -18,9 +18,22 @@ let new_readme = readme.replace(
     `![Top Languages](assets/top-langs.svg?ts=${ts})`
 );
 
-const lang_data = fs.readFileSync("temp/top-langs.txt", "utf-8");
-const top_languages = JSON.parse(lang_data);
-// [[lang, size]]
+const lang_data = fs.readFileSync("temp/langs.txt", "utf-8");
+const json = JSON.parse(lang_data);
+const repos = json.data.user.repositoriesContributedTo.nodes;
+
+const langMap = {};
+for (const repo of repos) {
+    console.log(repo);
+    if (!repo) continue;
+    for (const edge of repo.languages.edges) {
+        langMap[edge.node.name] =
+            (langMap[edge.node.name] || 0) + edge.size;
+    }
+}
+
+const top_languages = Object.entries(langMap)
+    .sort((a, b) => b[1] - a[1]);
 
 // Combine technologies
 const technologies = [
@@ -42,9 +55,9 @@ const badges_after = badges_parts[1].split("## Stuff I am (mostly) proud of")[1]
 new_readme = `${badges_before}## Technologies I use\n\n${badges}\n\n## Stuff I am (mostly) proud of${badges_after}`
 
 // Read json
-const repo_data = fs.readFileSync("assets/active-repos.txt", "utf-8");
+const repo_data = fs.readFileSync("temp/active-repos.txt", "utf-8");
 const repo_json = JSON.parse(repo_data);
-const most_active_repos = repo_json.data.user.repositories.nodes;
+const most_active_repos = repo_json;
 
 // Take first repos
 const top5_repos = most_active_repos
