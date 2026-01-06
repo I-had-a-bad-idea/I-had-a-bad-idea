@@ -43,7 +43,7 @@ const technologies = [
 const badges = technologies.map(name => {
     const encoded = encodeURIComponent(name);
     const color = (language_colors[name] || "#cccccc").replace("#", "")
-    return `![${name}](https://img.shields.io/badge/${encoded}-${encoded}-${color}?style=plastic&logo=${encoded}&logoColor=auto)`;
+    return `![${name}](https://img.shields.io/badge/${encoded}-${color}?style=plastic&logo=${encoded}&logoColor=auto)`;
 }).join("\n");
 
 
