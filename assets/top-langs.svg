@@ -1,4 +1,4 @@
-<svg width="260" height="190" viewBox="0 0 260 190"
+<svg width="260" height="222" viewBox="0 0 260 222"
     xmlns="http://www.w3.org/2000/svg">
     <style>
         text { font-family: system-ui, -apple-system, BlinkMacSystemFont; }
@@ -7,16 +7,19 @@
         <text x="0" y ="42" fill="#ffffffff" font-size="12">Python 37.6%</text>
         <rect x="0" y="46" width="98" height="8" fill="#ff0000ff" />
         
-        <text x="0" y ="74" fill="#ffffffff" font-size="12">C++ 29.7%</text>
+        <text x="0" y ="74" fill="#ffffffff" font-size="12">C++ 29.4%</text>
         <rect x="0" y="78" width="77" height="8" fill="#ff0000ff" />
         
-        <text x="0" y ="106" fill="#ffffffff" font-size="12">Rust 23.1%</text>
+        <text x="0" y ="106" fill="#ffffffff" font-size="12">Rust 23.0%</text>
         <rect x="0" y="110" width="60" height="8" fill="#ff0000ff" />
         
-        <text x="0" y ="138" fill="#ffffffff" font-size="12">JavaScript 4.9%</text>
+        <text x="0" y ="138" fill="#ffffffff" font-size="12">JavaScript 4.8%</text>
         <rect x="0" y="142" width="13" height="8" fill="#ff0000ff" />
         
         <text x="0" y ="170" fill="#ffffffff" font-size="12">C# 3.9%</text>
         <rect x="0" y="174" width="10" height="8" fill="#ff0000ff" />
+        
+        <text x="0" y ="202" fill="#ffffffff" font-size="12">C 0.6%</text>
+        <rect x="0" y="206" width="2" height="8" fill="#ff0000ff" />
         
 </svg>
