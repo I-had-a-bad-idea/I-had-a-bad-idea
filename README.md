@@ -8,8 +8,7 @@
 I'm a student from Germany with a passion for programming.  
 I learn by building projects, and being lazy means I automate everything I can.
 
-Creator of [IPL](https://github.com/IPL-Foundation/IPL) and it´s ecosystem.  
-Owner of the [IPL-Foundation](https://github.com/IPL-Foundation).
+Owner/Creator of the [IPL-Foundation](https://github.com/IPL-Foundation).
 
 ---
 
@@ -32,7 +31,7 @@ Owner of the [IPL-Foundation](https://github.com/IPL-Foundation).
 ![Makefile](https://img.shields.io/badge/Makefile-427819?style=plastic&logo=Makefile&logoColor=auto)
 ![Batchfile](https://img.shields.io/badge/Batchfile-cccccc?style=plastic&logo=Batchfile&logoColor=auto)
 
-## Stuff I am (mostly) proud of
+## Stuff I made
 
 <table>
   <tr>
@@ -80,7 +79,7 @@ Owner of the [IPL-Foundation](https://github.com/IPL-Foundation).
 ---
 
 ## Currently working on
-- [IPL](https://github.com/IPL-Foundation/IPL) (an interpreted programming language)
+- Attacking my own website to learn.
 - [DocGen](https://github.com/I-had-a-bad-idea/DocGen) (a documentation generator, because I am lazy)
 - A [chatbot](https://github.com/Willibald-Gluck-Gymnasium/gluck-bot) for my [school](https://github.com/Willibald-Gluck-Gymnasium)
 
