@@ -49,9 +49,9 @@ const badges = technologies.map(name => {
 
 const badges_parts = new_readme.split("## Technologies I use");
 const badges_before = badges_parts[0];
-const badges_after = badges_parts[1].split("## Stuff I am (mostly) proud of")[1];
+const badges_after = badges_parts[1].split("## Stuff I made")[1];
 
-new_readme = `${badges_before}## Technologies I use\n\n${badges}\n\n## Stuff I am (mostly) proud of${badges_after}`
+new_readme = `${badges_before}## Technologies I use\n\n${badges}\n\n## Stuff I made${badges_after}`
 
 // Read json
 const repo_data = fs.readFileSync("temp/active-repos.txt", "utf-8");
