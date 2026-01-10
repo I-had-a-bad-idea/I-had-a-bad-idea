@@ -16,6 +16,8 @@ const rm = ["Soulrush",
 
 ];
 
+const pinned_repos = ["IPL", "ILI", "DocGen", "C-Dictionary", "V.A.C.E", "PixelMorph"]
+
 if (fs.existsSync("assets/repo-line-counts.txt")) {
     all_repos = JSON.parse(fs.readFileSync("assets/repo-line-counts.txt", "utf-8"));
 }
@@ -111,10 +113,10 @@ const parts = new_readme.split("### Repo stats");
 const before = parts[0];
 const after = parts[1].split("### Most active repos this week")[1];
 
-let repo_table = "| Repo | Total Lines | Top Language |\n|------|------------|--------------|\n";
+let repo_table = "| Repo | Total Lines | Top Language: loc |\n|------|------------|--------------|\n";
 
 for (const [repo, [langData]] of Object.entries(all_repos)) {
-    if (rm.includes(repo)) continue;
+    if (!pinned_repos.includes(repo)) continue;
 
     const { SUM, Text, ...langs } = langData; // exclude SUM and Text
     // Find top language and its lines
