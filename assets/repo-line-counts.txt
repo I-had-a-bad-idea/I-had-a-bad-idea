@@ -1,17 +1,17 @@
 {
   "I-had-a-bad-idea": [
     {
-      "JavaScript": 441,
+      "JavaScript": 464,
       "Text": 398,
       "JSON": 108,
-      "Markdown": 85,
+      "Markdown": 88,
       "YAML": 65,
-      "SVG": 16,
-      "SUM": 1113
+      "SVG": 18,
+      "SUM": 1141
     },
     [
-      2840,
-      1603
+      2918,
+      1668
     ]
   ],
   "IPL": [
@@ -30,13 +30,13 @@
   ],
   "DocGen": [
     {
-      "Markdown": 475,
-      "Python": 276,
-      "SUM": 751
+      "Markdown": 738,
+      "Python": 288,
+      "SUM": 1026
     },
     [
-      2711,
-      1379
+      5144,
+      3353
     ]
   ],
   "ILI": [
@@ -79,15 +79,15 @@
     {
       "JSON": 2231,
       "JavaScript": 150,
-      "Markdown": 83,
+      "Markdown": 139,
       "CSS": 66,
       "HTML": 20,
       "Text": 20,
-      "SUM": 2570
+      "SUM": 2626
     },
     [
-      2808,
-      110
+      2937,
+      121
     ]
   ],
   "V.A.C.E": [
