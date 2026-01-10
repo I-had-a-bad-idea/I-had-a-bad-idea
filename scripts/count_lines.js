@@ -26,12 +26,16 @@ const active_repos = JSON.parse(active_repos_data);
 
 
 function clone_all_repos(repos) {
-    repos.forEach(repo => {
-        execSync(
-        `git clone https://${user}:${pat}@github.com/${repo.url.split('github.com/')[1]} repos/${repo.name}`,
-        { stdio: 'inherit' }
-        );
-    })
+    try {
+        repos.forEach(repo => {
+            execSync(
+            `git clone https://${user}:${pat}@github.com/${repo.url.split('github.com/')[1]} repos/${repo.name}`,
+            { stdio: 'inherit' }
+            );
+        })
+    } catch (e) {
+        console.error("Error cloning repos:", e);
+    }
 }
 
 function count_lines_in_repo(repo_name) {
