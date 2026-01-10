@@ -94,6 +94,8 @@ Contributions Graph             | Contribution Time
 :-------------------------:|:-------------------------:
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=I-had-a-bad-idea&theme=github_dark&v=2)  |  ![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=I-had-a-bad-idea&theme=github_dark&v=2)
 
+### Repo stats
+
 
 ### Most active repos this week
 
