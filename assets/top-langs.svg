@@ -13,7 +13,7 @@
         <text x="0" y ="106" fill="#ffffffff" font-size="12">Rust 23.0%</text>
         <rect x="0" y="110" width="60" height="8" fill="#ff0000ff" />
         
-        <text x="0" y ="138" fill="#ffffffff" font-size="12">JavaScript 4.8%</text>
+        <text x="0" y ="138" fill="#ffffffff" font-size="12">JavaScript 4.9%</text>
         <rect x="0" y="142" width="13" height="8" fill="#ff0000ff" />
         
         <text x="0" y ="170" fill="#ffffffff" font-size="12">C# 3.9%</text>
