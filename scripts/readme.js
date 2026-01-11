@@ -5,6 +5,7 @@ const language_colors = require("./language_colors");
 const other_technologies = [
     "VS Code",
     "Git",
+    "SQLite",
 ]
 
 // Read README
