@@ -16,6 +16,7 @@ Owner/Creator of the [IPL-Foundation](https://github.com/IPL-Foundation).
 
 ![VS Code](https://img.shields.io/badge/VS%20Code-cccccc?style=plastic&logo=VS%20Code&logoColor=auto)
 ![Git](https://img.shields.io/badge/Git-cccccc?style=plastic&logo=Git&logoColor=auto)
+![SQLite](https://img.shields.io/badge/SQLite-cccccc?style=plastic&logo=SQLite&logoColor=auto)
 ![GDScript](https://img.shields.io/badge/GDScript-cccccc?style=plastic&logo=GDScript&logoColor=auto)
 ![Python](https://img.shields.io/badge/Python-3572A5?style=plastic&logo=Python&logoColor=auto)
 ![C++](https://img.shields.io/badge/C%2B%2B-cccccc?style=plastic&logo=C%2B%2B&logoColor=auto)
@@ -85,7 +86,7 @@ Owner/Creator of the [IPL-Foundation](https://github.com/IPL-Foundation).
 
 ## Some (possibly) interesting statistics
 
-![Top Languages](assets/top-langs.svg?ts=1768105083686)
+![Top Languages](assets/top-langs.svg?ts=1768191549699)
 
 ![Lines Added](https://img.shields.io/badge/Added-473873_lines-brightgreen)
 ![Lines Removed](https://img.shields.io/badge/Removed-55267_lines-red)
@@ -107,7 +108,7 @@ Contributions Graph             | Contribution Time
 
 ### Most active repos this week
 
-- [I-had-a-bad-idea](https://github.com/I-had-a-bad-idea/I-had-a-bad-idea) (48 commits)
+- [I-had-a-bad-idea](https://github.com/I-had-a-bad-idea/I-had-a-bad-idea) (29 commits)
 - [DocGen](https://github.com/I-had-a-bad-idea/DocGen) (15 commits)
 - [website-vunerabilities](https://github.com/I-had-a-bad-idea/website-vunerabilities) (8 commits)
 - [C-Dictionary](https://github.com/I-had-a-bad-idea/C-Dictionary) (8 commits)
