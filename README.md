@@ -5,8 +5,9 @@
 
 ## Who am I?
 
-I'm a student from Germany with a passion for programming.  
-I learn by building projects, and being lazy means I automate everything I can.
+I'm a student from Germany just soing stuff.
+I mostly learn by doing.
+I try to be efficient because I am a lazy person.
 
 Owner/Creator of the [IPL-Foundation](https://github.com/IPL-Foundation).
 
