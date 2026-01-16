@@ -8,6 +8,17 @@ const other_technologies = [
     "SQLite",
 ]
 
+// Repos that just take up space. Some of my earliest.
+const rm = ["Soulrush",
+    "Interplanetares-Planeten-Zerstoerungs-System",
+    "Musik-Licht",
+    "ASTRA-NAVIS",
+    "Soulrush",
+    "Godot-Environment",
+    "Git-Commit-Spam",
+
+];
+
 // Read README
 const readme = fs.readFileSync("README.md", "utf-8");
 
@@ -61,6 +72,9 @@ const most_active_repos = JSON.parse(repo_data);
 // Take first repos
 const top5_repos = most_active_repos
     // Sort by number of commits desc
+    .filter(repo =>{
+        return !rm.includes(repo.name)
+    })
     .sort((a, b) => b.defaultBranchRef.target.history.totalCount - a.defaultBranchRef.target.history.totalCount)
     .slice(0, 5); // Get top 5
 
