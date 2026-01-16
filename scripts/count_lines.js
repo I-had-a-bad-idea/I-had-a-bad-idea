@@ -6,16 +6,6 @@ const pat = process.env.GH_PAT;
 
 let all_repos = {};
 
-// Repos that just take up space. Some of my earliest.
-const rm = ["Soulrush",
-    "Interplanetares-Planeten-Zerstoerungs-System",
-    "Musik-Licht",
-    "ASTRA-NAVIS",
-    "Soulrush",
-    "Godot-Environment",
-
-];
-
 const pinned_repos = ["IPL", "ILI", "DocGen", "C-Dictionary", "V.A.C.E", "PixelMorph"]
 
 if (fs.existsSync("assets/repo-line-counts.txt")) {
