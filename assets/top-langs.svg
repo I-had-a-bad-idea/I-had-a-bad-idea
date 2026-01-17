@@ -14,7 +14,7 @@
         <rect x="0" y="110" width="59" height="8" fill="#ff0000ff" />
         
         <text x="0" y ="138" fill="#ffffffff" font-size="12">JavaScript 4.8%</text>
-        <rect x="0" y="142" width="13" height="8" fill="#ff0000ff" />
+        <rect x="0" y="142" width="12" height="8" fill="#ff0000ff" />
         
         <text x="0" y ="170" fill="#ffffffff" font-size="12">C# 3.9%</text>
         <rect x="0" y="174" width="10" height="8" fill="#ff0000ff" />
