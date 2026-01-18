@@ -35,6 +35,9 @@ Owner/Creator of the [IPL-Foundation](https://github.com/IPL-Foundation).
 
 ## Stuff I made
 
+![IPL Tests](https://github.com/IPL-Foundation/IPL/actions/workflows/test.yml/badge.svg)
+![ILI Tests](https://github.com/IPL-Foundation/ILI/actions/workflows/test.yml/badge.svg)
+
 <table>
   <tr>
     <td>
