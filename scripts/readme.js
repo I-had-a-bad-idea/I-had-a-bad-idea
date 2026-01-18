@@ -59,11 +59,11 @@ const badges = technologies.map(name => {
 }).join("\n");
 
 
-const badges_parts = new_readme.split("## Technologies I use");
+const badges_parts = new_readme.split("## Technologies I haved used in repos (auto-generated)");
 const badges_before = badges_parts[0];
 const badges_after = badges_parts[1].split("## Stuff I made")[1];
 
-new_readme = `${badges_before}## Technologies I use\n\n${badges}\n\n## Stuff I made${badges_after}`
+new_readme = `${badges_before}## Technologies I haved used in repos (auto-generated)\n\n${badges}\n\n## Stuff I made${badges_after}`
 
 // Read json
 const repo_data = fs.readFileSync("temp/active-repos.txt", "utf-8");
