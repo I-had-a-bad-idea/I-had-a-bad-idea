@@ -13,7 +13,7 @@ Owner/Creator of the [IPL-Foundation](https://github.com/IPL-Foundation).
 
 ---
 
-## Technologies I use
+## Technologies I haved used in repos (auto-generated)
 
 ![VS Code](https://img.shields.io/badge/VS%20Code-cccccc?style=plastic&logo=VS%20Code&logoColor=auto)
 ![Git](https://img.shields.io/badge/Git-cccccc?style=plastic&logo=Git&logoColor=auto)
