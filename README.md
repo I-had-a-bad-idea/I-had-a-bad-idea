@@ -92,8 +92,8 @@ Owner/Creator of the [IPL-Foundation](https://github.com/IPL-Foundation).
 
 ![Top Languages](assets/top-langs.svg?ts=1768796404465)
 
-![Lines Added](https://img.shields.io/badge/Added-473874_lines-brightgreen)
-![Lines Removed](https://img.shields.io/badge/Removed-55267_lines-red)
+![Lines Added](https://img.shields.io/badge/Added-474007_lines-brightgreen)
+![Lines Removed](https://img.shields.io/badge/Removed-55284_lines-red)
 
 Contributions Graph             | Contribution Time
 :-------------------------:|:-------------------------:
@@ -105,7 +105,7 @@ Contributions Graph             | Contribution Time
 |------|------------|--------------|
 | IPL | 2687 | Rust: 1859 |
 | DocGen | 1026 | Markdown: 738 |
-| ILI | 406 | Rust: 356 |
+| ILI | 489 | Rust: 356 |
 | V.A.C.E | 369444 | Python: 294 |
 | PixelMorph | 122 | Python: 79 |
 

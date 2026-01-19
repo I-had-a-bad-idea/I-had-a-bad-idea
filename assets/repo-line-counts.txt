@@ -1,17 +1,17 @@
 {
   "I-had-a-bad-idea": [
     {
-      "JavaScript": 470,
+      "JavaScript": 474,
       "Text": 398,
       "JSON": 108,
-      "Markdown": 96,
+      "Markdown": 99,
       "YAML": 66,
       "SVG": 18,
-      "SUM": 1156
+      "SUM": 1163
     },
     [
-      2934,
-      1676
+      2958,
+      1692
     ]
   ],
   "IPL": [
@@ -42,14 +42,15 @@
   "ILI": [
     {
       "Rust": 356,
-      "Markdown": 42,
+      "Markdown": 81,
+      "YAML": 44,
       "TOML": 7,
       "Text": 1,
-      "SUM": 406
+      "SUM": 489
     },
     [
-      1158,
-      411
+      1267,
+      412
     ]
   ],
   "IPL-Highlighting-VS-Code": [
