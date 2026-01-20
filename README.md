@@ -5,9 +5,9 @@
 
 ## Who am I?
 
-I'm a student from Germany just soing stuff.
-I mostly learn by doing.
-I try to be efficient because I am a lazy person.
+I'm a student from Germany just messing with stuff.  
+I mostly learn by doing.  
+I try to be efficient because I am a lazy person.    
 
 Owner/Creator of the [IPL-Foundation](https://github.com/IPL-Foundation).
 
