@@ -81,7 +81,7 @@ async function most_active_repos_query() {
     `;
     const json = await send_query(query, { login: user, since: since });
     const filtered = json.data.user.repositories.nodes.filter(
-        repo => repo.defaultBranchRef.target.history.totalCount > 0
+        repo => repo?.defaultBranchRef?.target?.history?.totalCount > 0
     );
     fs.writeFileSync("temp/active-repos.txt", JSON.stringify(filtered, null, 2));
 }
