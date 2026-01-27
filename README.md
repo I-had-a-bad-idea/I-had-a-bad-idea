@@ -90,7 +90,7 @@ Owner/Creator of the [IPL-Foundation](https://github.com/IPL-Foundation).
 
 ## Some (possibly) interesting statistics
 
-![Top Languages](assets/top-langs.svg?ts=1769402024317)
+![Top Languages](assets/top-langs.svg?ts=1769487371737)
 
 ![Lines Added](https://img.shields.io/badge/Added-474011_lines-brightgreen)
 ![Lines Removed](https://img.shields.io/badge/Removed-55288_lines-red)
