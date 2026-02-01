@@ -90,7 +90,7 @@ Owner/Creator of the [IPL-Foundation](https://github.com/IPL-Foundation).
 
 ## Some (possibly) interesting statistics
 
-![Top Languages](assets/top-langs.svg?ts=1769834609820)
+![Top Languages](assets/top-langs.svg?ts=1769922540907)
 
 ![Lines Added](https://img.shields.io/badge/Added-474011_lines-brightgreen)
 ![Lines Removed](https://img.shields.io/badge/Removed-55288_lines-red)
@@ -112,6 +112,7 @@ Contributions Graph             | Contribution Time
 
 ### Most active repos this week
 
+- [Wikipedia-Summary](https://github.com/I-had-a-bad-idea/Wikipedia-Summary) (9 commits)
 - [I-had-a-bad-idea](https://github.com/I-had-a-bad-idea/I-had-a-bad-idea) (8 commits)
 
 ---
