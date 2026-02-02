@@ -4,10 +4,10 @@
       "JavaScript": 474,
       "Text": 399,
       "JSON": 108,
-      "Markdown": 96,
+      "Markdown": 97,
       "YAML": 66,
       "SVG": 18,
-      "SUM": 1161
+      "SUM": 1162
     },
     [
       2962,
