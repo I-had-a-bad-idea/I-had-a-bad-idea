@@ -3,9 +3,9 @@ const language_colors = require("./language_colors");
 
 
 const other_technologies = [
-    "VS Code",
-    "Git",
     "SQLite",
+    "Flask",
+    "Ollama",
 ]
 
 // Repos that just take up space. Some of my earliest.
