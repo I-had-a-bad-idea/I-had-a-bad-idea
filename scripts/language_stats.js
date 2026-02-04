@@ -1,4 +1,5 @@
 const fs = require("fs");
+const language_colors = require("./language_colors");
 
 const rm = ["GDScript", "GDShader", "Ruby"]; // Languages taking way too many bytes or languages I didnt activly use.
 
@@ -32,10 +33,11 @@ let y = 30;
 const bars = sorted.map(([lang, size]) => {
     const pct = ((size / sum) * 100).toFixed(1);
     if (pct > 0.5) {
+        const color = (language_colors[lang] || "#ff0000ff");
         const bar_width = Math.round((size / sum) * 260);
         const row = `
-        <text x="0" y ="${y + 12}" fill="#ffffffff" font-size="12">${lang} ${pct}%</text>
-        <rect x="0" y="${y + 16}" width="${bar_width}" height="8" fill="#ff0000ff" />
+        <text x="0" y ="${y + 12}" fill="rgba(255, 255, 255, 0.7)" font-size="12">${lang} ${pct}%</text>
+        <rect x="0" y="${y + 16}" width="${bar_width}" height="8" fill="${color}" />
         `;
         y += 32;
         return row
