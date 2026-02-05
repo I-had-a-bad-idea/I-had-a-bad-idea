@@ -15,9 +15,9 @@ Owner/Creator of the [IPL-Foundation](https://github.com/IPL-Foundation).
 
 ## Technologies I haved used in repos (auto-generated)
 
-![VS Code](https://img.shields.io/badge/VS%20Code-cccccc?style=plastic&logo=VS%20Code&logoColor=auto)
-![Git](https://img.shields.io/badge/Git-cccccc?style=plastic&logo=Git&logoColor=auto)
 ![SQLite](https://img.shields.io/badge/SQLite-cccccc?style=plastic&logo=SQLite&logoColor=auto)
+![Flask](https://img.shields.io/badge/Flask-cccccc?style=plastic&logo=Flask&logoColor=auto)
+![Ollama](https://img.shields.io/badge/Ollama-cccccc?style=plastic&logo=Ollama&logoColor=auto)
 ![GDScript](https://img.shields.io/badge/GDScript-cccccc?style=plastic&logo=GDScript&logoColor=auto)
 ![Python](https://img.shields.io/badge/Python-3572A5?style=plastic&logo=Python&logoColor=auto)
 ![C++](https://img.shields.io/badge/C%2B%2B-cccccc?style=plastic&logo=C%2B%2B&logoColor=auto)
@@ -90,7 +90,7 @@ Owner/Creator of the [IPL-Foundation](https://github.com/IPL-Foundation).
 
 ## Some (possibly) interesting statistics
 
-![Top Languages](assets/top-langs.svg?ts=1770180666819)
+![Top Languages](assets/top-langs.svg?ts=1770267530912)
 
 ![Lines Added](https://img.shields.io/badge/Added-474011_lines-brightgreen)
 ![Lines Removed](https://img.shields.io/badge/Removed-55288_lines-red)
@@ -112,8 +112,8 @@ Contributions Graph             | Contribution Time
 
 ### Most active repos this week
 
-- [Wikipedia-Summary](https://github.com/I-had-a-bad-idea/Wikipedia-Summary) (9 commits)
-- [I-had-a-bad-idea](https://github.com/I-had-a-bad-idea/I-had-a-bad-idea) (8 commits)
+- [Wikipedia-Summary](https://github.com/I-had-a-bad-idea/Wikipedia-Summary) (11 commits)
+- [I-had-a-bad-idea](https://github.com/I-had-a-bad-idea/I-had-a-bad-idea) (10 commits)
 
 ---
 
