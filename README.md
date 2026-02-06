@@ -86,7 +86,6 @@ Owner/Creator of the [IPL-Foundation](https://github.com/IPL-Foundation).
 ## Currently working on
 - A [chatbot](https://github.com/Willibald-Gluck-Gymnasium/gluck-bot) for my [school](https://github.com/Willibald-Gluck-Gymnasium)
 - Attacking my own website to learn.
-- [DocGen](https://github.com/I-had-a-bad-idea/DocGen) (a documentation generator, because I am lazy)
 
 ## Some (possibly) interesting statistics
 
