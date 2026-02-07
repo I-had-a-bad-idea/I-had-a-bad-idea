@@ -4,19 +4,19 @@
         text { font-family: system-ui, -apple-system, BlinkMacSystemFont; }
     </style>
     
-        <text x="0" y ="42" fill="rgba(255, 255, 255, 0.7)" font-size="12">Python 38.0%</text>
-        <rect x="0" y="46" width="99" height="8" fill="#3572A5" />
+        <text x="0" y ="42" fill="rgba(255, 255, 255, 0.7)" font-size="12">Python 37.2%</text>
+        <rect x="0" y="46" width="97" height="8" fill="#3572A5" />
         
-        <text x="0" y ="74" fill="rgba(255, 255, 255, 0.7)" font-size="12">C++ 29.2%</text>
-        <rect x="0" y="78" width="76" height="8" fill="#ff0000ff" />
+        <text x="0" y ="74" fill="rgba(255, 255, 255, 0.7)" font-size="12">C++ 29.6%</text>
+        <rect x="0" y="78" width="77" height="8" fill="#ff0000ff" />
         
-        <text x="0" y ="106" fill="rgba(255, 255, 255, 0.7)" font-size="12">Rust 22.8%</text>
-        <rect x="0" y="110" width="59" height="8" fill="#dea584" />
+        <text x="0" y ="106" fill="rgba(255, 255, 255, 0.7)" font-size="12">Rust 23.1%</text>
+        <rect x="0" y="110" width="60" height="8" fill="#dea584" />
         
-        <text x="0" y ="138" fill="rgba(255, 255, 255, 0.7)" font-size="12">JavaScript 4.8%</text>
-        <rect x="0" y="142" width="12" height="8" fill="#f1e05a" />
+        <text x="0" y ="138" fill="rgba(255, 255, 255, 0.7)" font-size="12">JavaScript 4.9%</text>
+        <rect x="0" y="142" width="13" height="8" fill="#f1e05a" />
         
-        <text x="0" y ="170" fill="rgba(255, 255, 255, 0.7)" font-size="12">C# 3.8%</text>
+        <text x="0" y ="170" fill="rgba(255, 255, 255, 0.7)" font-size="12">C# 3.9%</text>
         <rect x="0" y="174" width="10" height="8" fill="#ff0000ff" />
         
         <text x="0" y ="202" fill="rgba(255, 255, 255, 0.7)" font-size="12">C 0.6%</text>
