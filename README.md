@@ -54,8 +54,8 @@ Owner/Creator of the [IPL-Foundation](https://github.com/IPL-Foundation).
 
   <tr>
     <td>
-      <a href="https://github.com/I-had-a-bad-idea/DocGen">
-        <img src="https://github-readme-stats-I-had-a-bad-idea.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=DocGen&theme=github_dark&hide_border=true" />
+      <a href="https://github.com/I-had-a-bad-idea/Rasterization-Renderer">
+        <img src="https://github-readme-stats-I-had-a-bad-idea.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=Rasterization-Renderer&theme=github_dark&hide_border=true" />
       </a>
     </td>
     <td>
@@ -72,8 +72,8 @@ Owner/Creator of the [IPL-Foundation](https://github.com/IPL-Foundation).
       </a>
     </td>
     <td>
-      <a href="https://github.com/I-had-a-bad-idea/Pixelmorph">
-        <img src="https://github-readme-stats-I-had-a-bad-idea.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=Pixelmorph&theme=github_dark&hide_border=true" />
+      <a href="https://github.com/I-had-a-bad-idea/DocGen">
+        <img src="https://github-readme-stats-I-had-a-bad-idea.vercel.app/api/pin/?username=I-had-a-bad-idea&repo=DocGen&theme=github_dark&hide_border=true" />
       </a>
     </td>
   </tr>
@@ -85,7 +85,6 @@ Owner/Creator of the [IPL-Foundation](https://github.com/IPL-Foundation).
 
 ## Currently working on
 - A [chatbot](https://github.com/Willibald-Gluck-Gymnasium/gluck-bot) for my [school](https://github.com/Willibald-Gluck-Gymnasium)
-- Attacking my own website to learn.
 
 ## Some (possibly) interesting statistics
 
