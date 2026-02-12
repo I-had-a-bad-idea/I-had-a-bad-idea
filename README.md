@@ -90,8 +90,8 @@ Owner/Creator of the [IPL-Foundation](https://github.com/IPL-Foundation).
 
 ![Top Languages](assets/top-langs.svg?ts=1770872845686)
 
-![Lines Added](https://img.shields.io/badge/Added-474032_lines-brightgreen)
-![Lines Removed](https://img.shields.io/badge/Removed-55309_lines-red)
+![Lines Added](https://img.shields.io/badge/Added-474034_lines-brightgreen)
+![Lines Removed](https://img.shields.io/badge/Removed-55311_lines-red)
 
 Contributions Graph             | Contribution Time
 :-------------------------:|:-------------------------:
@@ -105,7 +105,7 @@ Contributions Graph             | Contribution Time
 | DocGen | 1026 | Markdown: 738 |
 | ILI | 489 | Rust: 356 |
 | V.A.C.E | 369444 | Python: 294 |
-| PixelMorph | 122 | Python: 79 |
+| Rasterization-Renderer | 1401 | C++: 789 |
 
 
 ### Most active repos this week
