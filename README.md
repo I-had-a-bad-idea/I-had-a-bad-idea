@@ -88,7 +88,7 @@ Owner/Creator of the [IPL-Foundation](https://github.com/IPL-Foundation).
 
 ## Some (possibly) interesting statistics
 
-![Top Languages](assets/top-langs.svg?ts=1770786754461)
+![Top Languages](assets/top-langs.svg?ts=1770872845686)
 
 ![Lines Added](https://img.shields.io/badge/Added-474028_lines-brightgreen)
 ![Lines Removed](https://img.shields.io/badge/Removed-55304_lines-red)
@@ -110,9 +110,10 @@ Contributions Graph             | Contribution Time
 
 ### Most active repos this week
 
-- [I-had-a-bad-idea](https://github.com/I-had-a-bad-idea/I-had-a-bad-idea) (11 commits)
+- [I-had-a-bad-idea](https://github.com/I-had-a-bad-idea/I-had-a-bad-idea) (10 commits)
 - [I-had-a-bad-idea.github.io](https://github.com/I-had-a-bad-idea/I-had-a-bad-idea.github.io) (10 commits)
-- [Wikipedia-Summary](https://github.com/I-had-a-bad-idea/Wikipedia-Summary) (3 commits)
+- [Rasterization-Renderer](https://github.com/I-had-a-bad-idea/Rasterization-Renderer) (6 commits)
+- [Wikipedia-Summary](https://github.com/I-had-a-bad-idea/Wikipedia-Summary) (1 commits)
 
 ---
 
