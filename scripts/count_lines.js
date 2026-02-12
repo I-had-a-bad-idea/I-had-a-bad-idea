@@ -6,7 +6,7 @@ const pat = process.env.GH_PAT;
 
 let all_repos = {};
 
-const pinned_repos = ["IPL", "ILI", "DocGen", "C-Dictionary", "V.A.C.E", "PixelMorph"]
+const pinned_repos = ["IPL", "ILI", "Rasterization-Renderer", "C-Dictionary", "V.A.C.E", "DocGen"]
 
 if (fs.existsSync("assets/repo-line-counts.txt")) {
     all_repos = JSON.parse(fs.readFileSync("assets/repo-line-counts.txt", "utf-8"));
