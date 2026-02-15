@@ -84,7 +84,8 @@ Owner/Creator of the [IPL-Foundation](https://github.com/IPL-Foundation).
 ---
 
 ## Currently working on
-- A [chatbot](https://github.com/Willibald-Gluck-Gymnasium/gluck-bot) for my [school](https://github.com/Willibald-Gluck-Gymnasium)
+- **TetrOS** (a tiny OS (bootloader, kernel) for runnning Tetris)
+- **gluck-bot** (a [chatbot](https://github.com/Willibald-Gluck-Gymnasium/gluck-bot) for my [school](https://github.com/Willibald-Gluck-Gymnasium))
 
 ## Some (possibly) interesting statistics
 
