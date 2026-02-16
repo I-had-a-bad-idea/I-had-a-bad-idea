@@ -92,8 +92,8 @@ Owner/Creator of the [IPL-Foundation](https://github.com/IPL-Foundation).
 
 ![Top Languages](assets/top-langs.svg?ts=1771218620628)
 
-![Lines Added](https://img.shields.io/badge/Added-474034_lines-brightgreen)
-![Lines Removed](https://img.shields.io/badge/Removed-55311_lines-red)
+![Lines Added](https://img.shields.io/badge/Added-474036_lines-brightgreen)
+![Lines Removed](https://img.shields.io/badge/Removed-55312_lines-red)
 
 Contributions Graph             | Contribution Time
 :-------------------------:|:-------------------------:

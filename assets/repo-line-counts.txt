@@ -4,14 +4,14 @@
       "JavaScript": 476,
       "Text": 399,
       "JSON": 108,
-      "Markdown": 97,
+      "Markdown": 99,
       "YAML": 66,
-      "SVG": 22,
-      "SUM": 1168
+      "SVG": 24,
+      "SUM": 1172
     },
     [
-      2985,
-      1719
+      2987,
+      1720
     ]
   ],
   "IPL": [
