@@ -1,16 +1,16 @@
-<svg width="260" height="286" viewBox="0 0 260 286"
+<svg width="260" height="318" viewBox="0 0 260 318"
     xmlns="http://www.w3.org/2000/svg">
     <style>
         text { font-family: system-ui, -apple-system, BlinkMacSystemFont; }
     </style>
     
-        <text x="0" y ="42" fill="rgba(255, 255, 255, 0.7)" font-size="12">Python 36.2%</text>
-        <rect x="0" y="46" width="94" height="8" fill="#3572A5" />
+        <text x="0" y ="42" fill="rgba(255, 255, 255, 0.7)" font-size="12">Python 35.9%</text>
+        <rect x="0" y="46" width="93" height="8" fill="#3572A5" />
         
-        <text x="0" y ="74" fill="rgba(255, 255, 255, 0.7)" font-size="12">C++ 29.2%</text>
-        <rect x="0" y="78" width="76" height="8" fill="#ff0000ff" />
+        <text x="0" y ="74" fill="rgba(255, 255, 255, 0.7)" font-size="12">C++ 29.0%</text>
+        <rect x="0" y="78" width="75" height="8" fill="#ff0000ff" />
         
-        <text x="0" y ="106" fill="rgba(255, 255, 255, 0.7)" font-size="12">Rust 22.5%</text>
+        <text x="0" y ="106" fill="rgba(255, 255, 255, 0.7)" font-size="12">Rust 22.3%</text>
         <rect x="0" y="110" width="58" height="8" fill="#dea584" />
         
         <text x="0" y ="138" fill="rgba(255, 255, 255, 0.7)" font-size="12">JavaScript 4.7%</text>
@@ -25,7 +25,10 @@
         <text x="0" y ="234" fill="rgba(255, 255, 255, 0.7)" font-size="12">CSS 1.1%</text>
         <rect x="0" y="238" width="3" height="8" fill="#563d7c" />
         
-        <text x="0" y ="266" fill="rgba(255, 255, 255, 0.7)" font-size="12">C 0.6%</text>
-        <rect x="0" y="270" width="1" height="8" fill="#555555" />
+        <text x="0" y ="266" fill="rgba(255, 255, 255, 0.7)" font-size="12">Assembly 1.0%</text>
+        <rect x="0" y="270" width="3" height="8" fill="#6E4C13" />
+        
+        <text x="0" y ="298" fill="rgba(255, 255, 255, 0.7)" font-size="12">C 0.6%</text>
+        <rect x="0" y="302" width="1" height="8" fill="#555555" />
         
 </svg>
