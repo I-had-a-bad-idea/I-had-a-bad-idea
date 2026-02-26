@@ -90,7 +90,7 @@ Owner/Creator of the [IPL-Foundation](https://github.com/IPL-Foundation).
 
 ## Some (possibly) interesting statistics
 
-![Top Languages](assets/top-langs.svg?ts=1771995780891)
+![Top Languages](assets/top-langs.svg?ts=1772082074773)
 
 ![Lines Added](https://img.shields.io/badge/Added-474036_lines-brightgreen)
 ![Lines Removed](https://img.shields.io/badge/Removed-55312_lines-red)
@@ -112,10 +112,10 @@ Contributions Graph             | Contribution Time
 
 ### Most active repos this week
 
-- [physicshub.github.io](https://github.com/I-had-a-bad-idea/physicshub.github.io) (20 commits)
-- [Screensaver](https://github.com/I-had-a-bad-idea/Screensaver) (10 commits)
+- [physicshub.github.io](https://github.com/I-had-a-bad-idea/physicshub.github.io) (16 commits)
+- [Screensaver](https://github.com/I-had-a-bad-idea/Screensaver) (12 commits)
 - [I-had-a-bad-idea](https://github.com/I-had-a-bad-idea/I-had-a-bad-idea) (8 commits)
-- [TetrOS](https://github.com/I-had-a-bad-idea/TetrOS) (3 commits)
+- [TetrOS](https://github.com/I-had-a-bad-idea/TetrOS) (1 commits)
 - [I-had-a-bad-idea.github.io](https://github.com/I-had-a-bad-idea/I-had-a-bad-idea.github.io) (1 commits)
 
 ---
