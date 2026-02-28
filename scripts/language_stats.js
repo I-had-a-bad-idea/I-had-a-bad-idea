@@ -1,14 +1,17 @@
 const fs = require("fs");
 const language_colors = require("./language_colors");
 
-const rm = ["GDScript", "GDShader", "Ruby"]; // Languages taking way too many bytes or languages I didnt activly use.
+const rm = ["GDScript", "GDShader", "Ruby", "HTML", "CSS"]; // Languages taking way too many bytes, I didnt activly use, that are not actual programming languages
 const rm_repos = ["physicshub.github.io"];   // Repos, that e.g. arent fully mine
 
 const data = fs.readFileSync("temp/langs.txt", "utf-8");
 const json = JSON.parse(data);
 if (json.errors) throw json.errors;
 
-const repos = json.data.user.repositoriesContributedTo.nodes;
+const user_repos = json.data.user.repositories.nodes ?? [];
+const org_repos = json.data.organization.repositories.nodes ?? [];
+
+const repos = [...user_repos, ...org_repos];
 
 // Collect all languages and their size
 const totals = {};
