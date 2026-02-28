@@ -18,18 +18,19 @@ Owner/Creator of the [IPL-Foundation](https://github.com/IPL-Foundation).
 ![SQLite](https://img.shields.io/badge/SQLite-cccccc?style=plastic&logo=SQLite&logoColor=auto)
 ![Flask](https://img.shields.io/badge/Flask-cccccc?style=plastic&logo=Flask&logoColor=auto)
 ![Ollama](https://img.shields.io/badge/Ollama-cccccc?style=plastic&logo=Ollama&logoColor=auto)
+![JavaScript](https://img.shields.io/badge/JavaScript-f1e05a?style=plastic&logo=JavaScript&logoColor=auto)
 ![GDScript](https://img.shields.io/badge/GDScript-cccccc?style=plastic&logo=GDScript&logoColor=auto)
 ![Python](https://img.shields.io/badge/Python-3572A5?style=plastic&logo=Python&logoColor=auto)
+![TypeScript](https://img.shields.io/badge/TypeScript-2b7489?style=plastic&logo=TypeScript&logoColor=auto)
 ![C++](https://img.shields.io/badge/C%2B%2B-cccccc?style=plastic&logo=C%2B%2B&logoColor=auto)
+![CSS](https://img.shields.io/badge/CSS-563d7c?style=plastic&logo=CSS&logoColor=auto)
 ![Rust](https://img.shields.io/badge/Rust-dea584?style=plastic&logo=Rust&logoColor=auto)
 ![Ruby](https://img.shields.io/badge/Ruby-701516?style=plastic&logo=Ruby&logoColor=auto)
-![GDShader](https://img.shields.io/badge/GDShader-cccccc?style=plastic&logo=GDShader&logoColor=auto)
-![JavaScript](https://img.shields.io/badge/JavaScript-f1e05a?style=plastic&logo=JavaScript&logoColor=auto)
-![C#](https://img.shields.io/badge/C%23-cccccc?style=plastic&logo=C%23&logoColor=auto)
 ![HTML](https://img.shields.io/badge/HTML-e44b23?style=plastic&logo=HTML&logoColor=auto)
-![CSS](https://img.shields.io/badge/CSS-563d7c?style=plastic&logo=CSS&logoColor=auto)
-![Assembly](https://img.shields.io/badge/Assembly-6E4C13?style=plastic&logo=Assembly&logoColor=auto)
+![GDShader](https://img.shields.io/badge/GDShader-cccccc?style=plastic&logo=GDShader&logoColor=auto)
+![C#](https://img.shields.io/badge/C%23-cccccc?style=plastic&logo=C%23&logoColor=auto)
 ![C](https://img.shields.io/badge/C-555555?style=plastic&logo=C&logoColor=auto)
+![Assembly](https://img.shields.io/badge/Assembly-6E4C13?style=plastic&logo=Assembly&logoColor=auto)
 ![Shell](https://img.shields.io/badge/Shell-89e051?style=plastic&logo=Shell&logoColor=auto)
 ![Makefile](https://img.shields.io/badge/Makefile-427819?style=plastic&logo=Makefile&logoColor=auto)
 ![Batchfile](https://img.shields.io/badge/Batchfile-cccccc?style=plastic&logo=Batchfile&logoColor=auto)
@@ -90,7 +91,7 @@ Owner/Creator of the [IPL-Foundation](https://github.com/IPL-Foundation).
 
 ## Some (possibly) interesting statistics
 
-![Top Languages](assets/top-langs.svg?ts=1772168118192)
+![Top Languages](assets/top-langs.svg?ts=1772253177494)
 
 ![Lines Added](https://img.shields.io/badge/Added-474036_lines-brightgreen)
 ![Lines Removed](https://img.shields.io/badge/Removed-55312_lines-red)
@@ -112,9 +113,10 @@ Contributions Graph             | Contribution Time
 
 ### Most active repos this week
 
-- [physicshub.github.io](https://github.com/I-had-a-bad-idea/physicshub.github.io) (16 commits)
-- [Screensaver](https://github.com/I-had-a-bad-idea/Screensaver) (12 commits)
+- [physicshub.github.io](https://github.com/I-had-a-bad-idea/physicshub.github.io) (18 commits)
 - [I-had-a-bad-idea](https://github.com/I-had-a-bad-idea/I-had-a-bad-idea) (8 commits)
+- [TetrOS](https://github.com/I-had-a-bad-idea/TetrOS) (7 commits)
+- [Screensaver](https://github.com/I-had-a-bad-idea/Screensaver) (2 commits)
 
 ---
 
