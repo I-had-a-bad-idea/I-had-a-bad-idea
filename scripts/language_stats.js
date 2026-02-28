@@ -2,6 +2,7 @@ const fs = require("fs");
 const language_colors = require("./language_colors");
 
 const rm = ["GDScript", "GDShader", "Ruby"]; // Languages taking way too many bytes or languages I didnt activly use.
+const rm_repos = ["physicshub.github.io"];   // Repos, that e.g. arent fully mine
 
 const data = fs.readFileSync("temp/langs.txt", "utf-8");
 const json = JSON.parse(data);
@@ -13,6 +14,7 @@ const repos = json.data.user.repositoriesContributedTo.nodes;
 const totals = {};
 repos.forEach(repo => {
     if (!repo?.languages?.edges) return; // If it cant be accessed, doesnt exists, etc.
+    if (rm_repos.includes(repo.name)) return; // If it is in the rm_repos
 
     repo.languages.edges.forEach(({ size, node}) => {
         if (!rm.includes(node.name)) {
