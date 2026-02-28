@@ -28,6 +28,7 @@ jobs:
               run: node scripts/graphql.js
               env:
                 GH_USER: I-had-a-bad-idea
+                GH_ORG: IPL-Foundation
                 GH_PAT: ${{ secrets.GH_PAT }}
 
             - name: Update language stats svg

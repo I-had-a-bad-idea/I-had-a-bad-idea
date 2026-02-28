@@ -4,6 +4,7 @@ import fs from "fs";
 // Get user and PAT
 const user = process.env.GH_USER;
 const pat = process.env.GH_PAT;
+const org = process.env.GH_ORG;
 
 // Throw error if missing
 if (!pat || !user) {
@@ -28,29 +29,53 @@ async function send_query(query, variables) {
 
 async function lang_query() {
     // Declare query
-    // Take first 100 repos a commit/PR was made to, include the users repos
+    // Take first 100 repos owned by the user and the org
     // Get the first 10 languages from them, sort descending by size.
     const query = `
-    query ($login: String!) {
-        user(login: $login) {
-            repositoriesContributedTo(
-            first: 100
-            contributionTypes: [COMMIT, PULL_REQUEST]
-            includeUserRepositories: true
+    query ($userLogin: String!, $orgLogin: String!) {
+
+        user(login: $userLogin) {
+            repositories(
+                first: 100
+                ownerAffiliations: OWNER
+                isFork: false
             ) {
                 nodes {
                     languages(first: 10, orderBy: {field: SIZE, direction: DESC}) {
                         edges {
-                        size
-                        node { name }
+                            size
+                            node { name }
                         }
-                    }  
-                } 
+                    }
+                }
+            }
+        }
+
+        organization(login: $orgLogin) {
+            repositories(
+                first: 100
+                isFork: false
+            ) {
+                nodes {
+                    languages(first: 10, orderBy: {field: SIZE, direction: DESC}) {
+                        edges {
+                            size
+                            node { name }
+                        }
+                    }
+                }
             }
         }
     }
     `;
-    const json = await send_query(query, { login: user });
+
+    const json = await send_query(query, { 
+        userLogin: user,
+        orgLogin: org 
+    });
+
+    console.log(JSON.stringify(json, null, 2));
+
     fs.writeFileSync("temp/langs.txt", JSON.stringify(json, null, 2));
 }
 
