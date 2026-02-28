@@ -31,8 +31,9 @@ Owner/Creator of the [IPL-Foundation](https://github.com/IPL-Foundation).
 ![C#](https://img.shields.io/badge/C%23-cccccc?style=plastic&logo=C%23&logoColor=auto)
 ![C](https://img.shields.io/badge/C-555555?style=plastic&logo=C&logoColor=auto)
 ![Assembly](https://img.shields.io/badge/Assembly-6E4C13?style=plastic&logo=Assembly&logoColor=auto)
-![Shell](https://img.shields.io/badge/Shell-89e051?style=plastic&logo=Shell&logoColor=auto)
 ![Makefile](https://img.shields.io/badge/Makefile-427819?style=plastic&logo=Makefile&logoColor=auto)
+![Shell](https://img.shields.io/badge/Shell-89e051?style=plastic&logo=Shell&logoColor=auto)
+![Linker Script](https://img.shields.io/badge/Linker%20Script-cccccc?style=plastic&logo=Linker%20Script&logoColor=auto)
 ![Batchfile](https://img.shields.io/badge/Batchfile-cccccc?style=plastic&logo=Batchfile&logoColor=auto)
 
 ## Stuff I made
@@ -91,7 +92,7 @@ Owner/Creator of the [IPL-Foundation](https://github.com/IPL-Foundation).
 
 ## Some (possibly) interesting statistics
 
-![Top Languages](assets/top-langs.svg?ts=1772253177494)
+![Top Languages](assets/top-langs.svg?ts=1772299342721)
 
 ![Lines Added](https://img.shields.io/badge/Added-474036_lines-brightgreen)
 ![Lines Removed](https://img.shields.io/badge/Removed-55312_lines-red)
@@ -113,9 +114,9 @@ Contributions Graph             | Contribution Time
 
 ### Most active repos this week
 
-- [physicshub.github.io](https://github.com/I-had-a-bad-idea/physicshub.github.io) (18 commits)
-- [I-had-a-bad-idea](https://github.com/I-had-a-bad-idea/I-had-a-bad-idea) (8 commits)
-- [TetrOS](https://github.com/I-had-a-bad-idea/TetrOS) (7 commits)
+- [physicshub.github.io](https://github.com/I-had-a-bad-idea/physicshub.github.io) (59 commits)
+- [TetrOS](https://github.com/I-had-a-bad-idea/TetrOS) (18 commits)
+- [I-had-a-bad-idea](https://github.com/I-had-a-bad-idea/I-had-a-bad-idea) (9 commits)
 - [Screensaver](https://github.com/I-had-a-bad-idea/Screensaver) (2 commits)
 
 ---

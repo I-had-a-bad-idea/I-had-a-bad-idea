@@ -1,10 +1,10 @@
-<svg width="260" height="286" viewBox="0 0 260 286"
+<svg width="260" height="318" viewBox="0 0 260 318"
     xmlns="http://www.w3.org/2000/svg">
     <style>
         text { font-family: system-ui, -apple-system, BlinkMacSystemFont; }
     </style>
     
-        <text x="0" y ="42" fill="rgba(255, 255, 255, 0.7)" font-size="12">JavaScript 46.2%</text>
+        <text x="0" y ="42" fill="rgba(255, 255, 255, 0.7)" font-size="12">JavaScript 46.1%</text>
         <rect x="0" y="46" width="120" height="8" fill="#f1e05a" />
         
         <text x="0" y ="74" fill="rgba(255, 255, 255, 0.7)" font-size="12">Python 12.0%</text>
@@ -16,16 +16,19 @@
         <text x="0" y ="138" fill="rgba(255, 255, 255, 0.7)" font-size="12">C++ 9.9%</text>
         <rect x="0" y="142" width="26" height="8" fill="#ff0000ff" />
         
-        <text x="0" y ="170" fill="rgba(255, 255, 255, 0.7)" font-size="12">CSS 8.3%</text>
-        <rect x="0" y="174" width="22" height="8" fill="#563d7c" />
+        <text x="0" y ="170" fill="rgba(255, 255, 255, 0.7)" font-size="12">CSS 8.2%</text>
+        <rect x="0" y="174" width="21" height="8" fill="#563d7c" />
         
-        <text x="0" y ="202" fill="rgba(255, 255, 255, 0.7)" font-size="12">Rust 7.5%</text>
+        <text x="0" y ="202" fill="rgba(255, 255, 255, 0.7)" font-size="12">Rust 7.4%</text>
         <rect x="0" y="206" width="19" height="8" fill="#dea584" />
         
-        <text x="0" y ="234" fill="rgba(255, 255, 255, 0.7)" font-size="12">HTML 3.5%</text>
+        <text x="0" y ="234" fill="rgba(255, 255, 255, 0.7)" font-size="12">HTML 3.6%</text>
         <rect x="0" y="238" width="9" height="8" fill="#e44b23" />
         
         <text x="0" y ="266" fill="rgba(255, 255, 255, 0.7)" font-size="12">C# 1.3%</text>
         <rect x="0" y="270" width="3" height="8" fill="#ff0000ff" />
+        
+        <text x="0" y ="298" fill="rgba(255, 255, 255, 0.7)" font-size="12">C 0.7%</text>
+        <rect x="0" y="302" width="2" height="8" fill="#555555" />
         
 </svg>
