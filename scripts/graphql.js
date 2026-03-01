@@ -74,8 +74,6 @@ async function lang_query() {
         orgLogin: org 
     });
 
-    console.log(JSON.stringify(json, null, 2));
-
     fs.writeFileSync("temp/langs.txt", JSON.stringify(json, null, 2));
 }
 
