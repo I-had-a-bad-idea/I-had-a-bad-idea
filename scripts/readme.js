@@ -32,7 +32,10 @@ let new_readme = readme.replace(
 
 const lang_data = fs.readFileSync("temp/langs.txt", "utf-8");
 const json = JSON.parse(lang_data);
-const repos = json.data.user.repositoriesContributedTo.nodes;
+const user_repos = json.data.user.repositories.nodes ?? [];
+const org_repos = json.data.organization.repositories.nodes ?? [];
+
+const repos = [...user_repos, ...org_repos];
 
 const lang_map = {};
 for (const repo of repos) {
