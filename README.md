@@ -24,12 +24,12 @@ Owner/Creator of the [IPL-Foundation](https://github.com/IPL-Foundation).
 ![Rust](https://img.shields.io/badge/Rust-dea584?style=plastic&logo=Rust&logoColor=auto)
 ![Ruby](https://img.shields.io/badge/Ruby-701516?style=plastic&logo=Ruby&logoColor=auto)
 ![GDShader](https://img.shields.io/badge/GDShader-cccccc?style=plastic&logo=GDShader&logoColor=auto)
+![C](https://img.shields.io/badge/C-555555?style=plastic&logo=C&logoColor=auto)
 ![JavaScript](https://img.shields.io/badge/JavaScript-f1e05a?style=plastic&logo=JavaScript&logoColor=auto)
 ![C#](https://img.shields.io/badge/C%23-cccccc?style=plastic&logo=C%23&logoColor=auto)
 ![HTML](https://img.shields.io/badge/HTML-e44b23?style=plastic&logo=HTML&logoColor=auto)
-![C](https://img.shields.io/badge/C-555555?style=plastic&logo=C&logoColor=auto)
-![CSS](https://img.shields.io/badge/CSS-563d7c?style=plastic&logo=CSS&logoColor=auto)
 ![Assembly](https://img.shields.io/badge/Assembly-6E4C13?style=plastic&logo=Assembly&logoColor=auto)
+![CSS](https://img.shields.io/badge/CSS-563d7c?style=plastic&logo=CSS&logoColor=auto)
 ![Makefile](https://img.shields.io/badge/Makefile-427819?style=plastic&logo=Makefile&logoColor=auto)
 ![Linker Script](https://img.shields.io/badge/Linker%20Script-cccccc?style=plastic&logo=Linker%20Script&logoColor=auto)
 ![Batchfile](https://img.shields.io/badge/Batchfile-cccccc?style=plastic&logo=Batchfile&logoColor=auto)
@@ -91,7 +91,7 @@ Owner/Creator of the [IPL-Foundation](https://github.com/IPL-Foundation).
 
 ## Some (possibly) interesting statistics
 
-![Top Languages](assets/top-langs.svg?ts=1772599824893)
+![Top Languages](assets/top-langs.svg?ts=1772686466765)
 
 ![Lines Added](https://img.shields.io/badge/Added-475106_lines-brightgreen)
 ![Lines Removed](https://img.shields.io/badge/Removed-55697_lines-red)
@@ -113,10 +113,9 @@ Contributions Graph             | Contribution Time
 
 ### Most active repos this week
 
-- [physicshub.github.io](https://github.com/I-had-a-bad-idea/physicshub.github.io) (46 commits)
-- [TetrOS](https://github.com/I-had-a-bad-idea/TetrOS) (18 commits)
-- [I-had-a-bad-idea](https://github.com/I-had-a-bad-idea/I-had-a-bad-idea) (14 commits)
-- [Screensaver](https://github.com/I-had-a-bad-idea/Screensaver) (2 commits)
+- [physicshub.github.io](https://github.com/I-had-a-bad-idea/physicshub.github.io) (65 commits)
+- [TetrOS](https://github.com/I-had-a-bad-idea/TetrOS) (28 commits)
+- [I-had-a-bad-idea](https://github.com/I-had-a-bad-idea/I-had-a-bad-idea) (15 commits)
 
 ---
 
