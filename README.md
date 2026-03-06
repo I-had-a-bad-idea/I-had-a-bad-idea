@@ -91,7 +91,7 @@ Owner/Creator of the [IPL-Foundation](https://github.com/IPL-Foundation).
 
 ## Some (possibly) interesting statistics
 
-![Top Languages](assets/top-langs.svg?ts=1772686466765)
+![Top Languages](assets/top-langs.svg?ts=1772772676045)
 
 ![Lines Added](https://img.shields.io/badge/Added-475106_lines-brightgreen)
 ![Lines Removed](https://img.shields.io/badge/Removed-55697_lines-red)
@@ -113,8 +113,8 @@ Contributions Graph             | Contribution Time
 
 ### Most active repos this week
 
-- [physicshub.github.io](https://github.com/I-had-a-bad-idea/physicshub.github.io) (65 commits)
-- [TetrOS](https://github.com/I-had-a-bad-idea/TetrOS) (28 commits)
+- [physicshub.github.io](https://github.com/I-had-a-bad-idea/physicshub.github.io) (36 commits)
+- [TetrOS](https://github.com/I-had-a-bad-idea/TetrOS) (33 commits)
 - [I-had-a-bad-idea](https://github.com/I-had-a-bad-idea/I-had-a-bad-idea) (15 commits)
 
 ---
