@@ -1,7 +1,7 @@
 const fs = require("fs");
 const language_colors = require("./language_colors");
 
-const rm = ["GDScript", "GDShader", "Ruby", "HTML", "CSS"]; // Languages taking way too many bytes, I didnt activly use, that are not actual programming languages
+const rm = ["GDScript", "GDShader", "Ruby", "HTML", "CSS", "C#"]; // Languages taking way too many bytes, I didnt activly use, that are not actual programming languages
 const rm_repos = ["physicshub.github.io"];   // Repos, that e.g. arent fully mine
 
 const data = fs.readFileSync("temp/langs.txt", "utf-8");
