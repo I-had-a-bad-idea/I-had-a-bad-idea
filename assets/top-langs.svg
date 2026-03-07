@@ -13,13 +13,13 @@
         <text x="0" y ="106" fill="rgba(255, 255, 255, 0.7)" font-size="12">Rust 21.6%</text>
         <rect x="0" y="110" width="56" height="8" fill="#dea584" />
         
-        <text x="0" y ="138" fill="rgba(255, 255, 255, 0.7)" font-size="12">C 5.8%</text>
+        <text x="0" y ="138" fill="rgba(255, 255, 255, 0.7)" font-size="12">C 5.7%</text>
         <rect x="0" y="142" width="15" height="8" fill="#555555" />
         
         <text x="0" y ="170" fill="rgba(255, 255, 255, 0.7)" font-size="12">JavaScript 4.7%</text>
         <rect x="0" y="174" width="12" height="8" fill="#f1e05a" />
         
-        <text x="0" y ="202" fill="rgba(255, 255, 255, 0.7)" font-size="12">C# 3.6%</text>
+        <text x="0" y ="202" fill="rgba(255, 255, 255, 0.7)" font-size="12">C# 3.7%</text>
         <rect x="0" y="206" width="9" height="8" fill="#ff0000ff" />
         
         <text x="0" y ="234" fill="rgba(255, 255, 255, 0.7)" font-size="12">Assembly 2.0%</text>
